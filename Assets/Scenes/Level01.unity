@@ -3013,7 +3013,7 @@ Transform:
   m_GameObject: {fileID: 1457822016}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.5611, y: -0.024, z: -0.8689}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3760,6 +3760,7 @@ MonoBehaviour:
   cameraMoveSpeed: 2
   rugCameraPosition: {x: 12.2, y: 17.35, z: -10}
   sofaTVCameraPosition: {x: 15.6, y: 14.8, z: -10}
+  finalPosition: {x: 10.5, y: 16.7, z: -10.5}
 --- !u!1 &1713533467
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,6 +25,8 @@ public class CameraController : MonoBehaviour
     public Vector3 rugCameraPosition = new Vector3(12.2f, 17.35f, -10f);
     public Vector3 sofaTVCameraPosition = new Vector3(15.6f, 14.8f, -10f);
 
+    public Vector3 finalPosition = new Vector3(10.5f,16.7f,-10.5f);
+
     void Start()
     {
         cam = Camera.main;
@@ -41,7 +43,7 @@ public class CameraController : MonoBehaviour
         UpdateDragModeText();
 
 
-        if (!isTransitioning)
+        if (!isTransitioning && defaultTransform != finalPosition)
         {
 
             float scroll = Input.GetAxis("Mouse ScrollWheel");
@@ -147,21 +149,30 @@ public class CameraController : MonoBehaviour
 
     public void MoveCameraToDesk()
     {
-        StartCoroutine(MoveCameraCoroutine(deskCameraPosition));
+        StartCoroutine(MoveCameraCoroutine(deskCameraPosition, false));
     }
 
-    private IEnumerator MoveCameraCoroutine(Vector3 position)
+    private IEnumerator MoveCameraCoroutine(Vector3 position, bool needResize)
     {
         isTransitioning = true;
         Vector3 startPosition = transform.position;
         float journeyLength = Vector3.Distance(startPosition, position);
         float startTime = Time.time;
 
+        float startSize = cam.orthographicSize;
+        float targetSize = 10f;
+
         while (transform.position != position)
         {
             float distanceCovered = (Time.time - startTime) * cameraMoveSpeed;
             float fractionOfJourney = distanceCovered / journeyLength;
             transform.position = Vector3.Lerp(startPosition, position, fractionOfJourney);
+
+            if (needResize)
+            {
+                cam.orthographicSize = Mathf.Lerp(startSize, targetSize, fractionOfJourney);
+            }
+
             yield return null;
         }
 
@@ -171,12 +182,17 @@ public class CameraController : MonoBehaviour
 
     public void MoveCameraToRug()
     {
-        StartCoroutine(MoveCameraCoroutine(rugCameraPosition));
+        StartCoroutine(MoveCameraCoroutine(rugCameraPosition, false));
     }
 
     public void MoveCameraToSofa()
     {
-        StartCoroutine(MoveCameraCoroutine(sofaTVCameraPosition));
+        StartCoroutine(MoveCameraCoroutine(sofaTVCameraPosition, false));
+    }
+
+    public void MoveCameraToFinal()
+    {
+        StartCoroutine(MoveCameraCoroutine(finalPosition, true));
     }
 
 }

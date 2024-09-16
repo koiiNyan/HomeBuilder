@@ -324,6 +324,15 @@ public class GameManager : MonoBehaviour
         {
             //ActivateDeskChair();
             IsSofaTVCompleted = true;
+            // Move camera to new position
+            if (cameraController != null)
+            {
+                cameraController.MoveCameraToFinal();
+            }
+            else
+            {
+                Debug.LogError("CameraController is not available!");
+            }
         }
     }
 }

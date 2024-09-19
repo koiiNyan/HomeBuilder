@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0d7d5e579fb9a4eb0f0e70bfa2ff0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetArea: {fileID: 0}
+  _targetArea: {fileID: 0}
   placementThreshold: 50
   dragScale: {x: 5.84, y: 31.9, z: 1}
   objectType: Bookshelf

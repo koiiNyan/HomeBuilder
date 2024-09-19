@@ -39,6 +39,7 @@ public static class SaveManager
 
         if (levelName == "Level01")
         {
+
             GameManager gameManager = Object.FindObjectOfType<GameManager>();
             if (gameManager == null)
             {
@@ -46,7 +47,6 @@ public static class SaveManager
                 return;
             }
 
-            saveData.bedCompleted = gameManager.GetBedCompleted();
             Debug.Log($"SaveManager: Bed completed state from GameManager: {saveData.bedCompleted}");
 
 

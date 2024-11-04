@@ -2,8 +2,9 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
-public class CameraController : MonoBehaviour
+public class CameraController : MonoBehaviour, ICameraController
 {
     public float zoomSpeed = 1f;
     public float minZoom = 2f;
@@ -26,6 +27,13 @@ public class CameraController : MonoBehaviour
     public Vector3 sofaTVCameraPosition = new Vector3(15.6f, 14.8f, -10f);
 
     public Vector3 finalPosition = new Vector3(10.5f,16.7f,-10.5f);
+
+    public interface ICameraController
+    {
+        bool IsDefaultZoom();
+        bool IsDefaultTransform();
+        void ShowWarning(string message);
+    }
 
     void Start()
     {

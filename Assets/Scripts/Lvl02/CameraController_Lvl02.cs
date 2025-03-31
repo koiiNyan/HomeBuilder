@@ -17,16 +17,16 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
     private Camera cam;
     private float warningTimer;
     private Vector3 cameraMovement;
-    public Vector3 defaultTransform = new Vector3(10f, 18f, -10f);
-    public Vector3 deskCameraPosition = new Vector3(6.11f, 16.19f, -10f);
+    public Vector3 defaultTransform = new Vector3(6.1f, 16.73f, -10f);
+    //public Vector3 deskCameraPosition = new Vector3(6.11f, 16.19f, -10f);
     public float cameraMoveSpeed = 2f;
     private bool isTransitioning = false;
 
 
-    public Vector3 rugCameraPosition = new Vector3(12.2f, 17.35f, -10f);
-    public Vector3 sofaTVCameraPosition = new Vector3(15.6f, 14.8f, -10f);
+    //public Vector3 rugCameraPosition = new Vector3(12.2f, 17.35f, -10f);
+   // public Vector3 sofaTVCameraPosition = new Vector3(15.6f, 14.8f, -10f);
 
-    public Vector3 finalPosition = new Vector3(10.5f,16.7f,-10.5f);
+   // public Vector3 finalPosition = new Vector3(10.5f,16.7f,-10.5f);
 
     public interface ICameraController
     {
@@ -51,7 +51,7 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
         UpdateDragModeText();
 
 
-        if (!isTransitioning && defaultTransform != finalPosition)
+        if (!isTransitioning )//&& defaultTransform != finalPosition)
         {
 
             float scroll = Input.GetAxis("Mouse ScrollWheel");
@@ -155,7 +155,7 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
         }
     }
 
-    public void MoveCameraToDesk()
+   /* public void MoveCameraToDesk()
     {
         StartCoroutine(MoveCameraCoroutine(deskCameraPosition, false));
     }
@@ -201,6 +201,6 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
     public void MoveCameraToFinal()
     {
         StartCoroutine(MoveCameraCoroutine(finalPosition, true));
-    }
+    }*/
 
 }

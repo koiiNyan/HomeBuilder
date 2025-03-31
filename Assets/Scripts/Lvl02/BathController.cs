@@ -31,7 +31,7 @@ public class BathController : MonoBehaviour, ILoadable
 
     void DestroyUIParts()
     {
-        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("BedUI");
+        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("BathUI");
         foreach (GameObject part in uiParts)
         {
             Destroy(part);

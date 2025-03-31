@@ -31,7 +31,7 @@ public class ToiletController : MonoBehaviour, ILoadable
 
     void DestroyUIParts()
     {
-        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("BedUI");
+        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("ToiletUI");
         foreach (GameObject part in uiParts)
         {
             Destroy(part);

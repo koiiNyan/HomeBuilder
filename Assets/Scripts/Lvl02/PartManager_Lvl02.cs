@@ -2,61 +2,44 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-public class PartManager_Lvl02 : MonoBehaviour
+public class PartManager_Lvl02: MonoBehaviour
 {
     public RectTransform uiPanel;
-
     public GameObject[] partPrefabs;
-    public RectTransform[] targetAreas; // New array for target areas
-
-    public GameObject[] deskChairPartPrefabs;
+    public RectTransform[] targetAreas;
+    /*public GameObject[] deskChairPartPrefabs;
     public RectTransform[] deskChairTargetAreas;
-
     public GameObject[] rugPosterPartPrefabs;
     public RectTransform[] rugPosterTargetAreas;
-
     public GameObject[] sofaTVPartPrefabs;
-    public RectTransform[] sofaTVTargetAreas;
+    public RectTransform[] sofaTVTargetAreas;*/
+    public Button leftButton;
+    public Button rightButton;
 
     private List<GameObject> parts = new List<GameObject>();
-    private List<GameObject> deskChairParts = new List<GameObject>();
-    private List<GameObject> rugPosterParts = new List<GameObject>();
-    private List<GameObject> sofaTVParts = new List<GameObject>();
+    //private List<GameObject> deskChairParts = new List<GameObject>();
+    //private List<GameObject> rugPosterParts = new List<GameObject>();
+    //private List<GameObject> sofaTVParts = new List<GameObject>();
 
+    private int partsPerPage = 10;
+    private int currentPage = 0;
+    private List<GameObject> currentActiveList;
 
     void Start()
     {
-        //Debug.Log($"Initializing {partPrefabs.Length} parts");
         InitializeParts(partPrefabs, targetAreas, uiPanel, parts);
-        UpdateVisibleParts(parts);
-    }
+        currentActiveList = parts;
+        UpdateButtonsVisibility();
+        UpdateVisibleParts();
 
-    public void InitializeDeskParts()
-    {
-        //Debug.Log($"Initializing {deskChairPartPrefabs.Length} desk parts");
-        InitializeParts(deskChairPartPrefabs, deskChairTargetAreas, uiPanel, deskChairParts);
-        UpdateVisibleParts(deskChairParts);
-    }
-
-    public void InitializeRugParts()
-    {
-        //Debug.Log($"Initializing {rugPosterPartPrefabs.Length} desk parts");
-        InitializeParts(rugPosterPartPrefabs, rugPosterTargetAreas, uiPanel, rugPosterParts);
-        UpdateVisibleParts(rugPosterParts);
-    }
-
-    public void InitializeSofaParts()
-    {
-        //Debug.Log($"Initializing {rugPosterPartPrefabs.Length} desk parts");
-        InitializeParts(sofaTVPartPrefabs, sofaTVTargetAreas, uiPanel, sofaTVParts);
-        UpdateVisibleParts(sofaTVParts);
+        if (leftButton != null) leftButton.onClick.AddListener(OnLeftButtonClick);
+        if (rightButton != null) rightButton.onClick.AddListener(OnRightButtonClick);
     }
 
     void InitializeParts(GameObject[] prefabs, RectTransform[] areas, RectTransform panel, List<GameObject> partsList)
     {
         float totalWidth = panel.rect.width;
-        float basePartWidth = 100f; // Base width for scaling
-        float currentX = 0f;
+        float basePartWidth = 100f;
 
         for (int i = 0; i < prefabs.Length; i++)
         {
@@ -64,53 +47,107 @@ public class PartManager_Lvl02 : MonoBehaviour
             RectTransform rectTransform = partObject.GetComponent<RectTransform>();
             rectTransform.anchorMin = new Vector2(0, 0.5f);
             rectTransform.anchorMax = new Vector2(0, 0.5f);
-
             Vector3 scale = GetScaleForPart(partObject.name);
             rectTransform.localScale = scale;
 
+            // Store the original position calculation for later use
             float partWidth = basePartWidth * scale.x;
-            float spacing = (totalWidth - partWidth * prefabs.Length) / (prefabs.Length + 1);
+            int pageIndex = i / partsPerPage;
+            int positionInPage = i % partsPerPage;
+            float spacing = (totalWidth - partWidth * partsPerPage) / (partsPerPage + 1);
+            float currentX = spacing + (spacing + partWidth) * positionInPage + partWidth / 2f;
 
-            currentX += spacing + partWidth / 2f;
             rectTransform.anchoredPosition = new Vector2(currentX, 0);
-            currentX += partWidth / 2f;
-
             partsList.Add(partObject);
 
-            // Assign target area if available
             if (i < areas.Length)
             {
                 DraggablePart draggablePart = partObject.GetComponent<DraggablePart>();
                 if (draggablePart != null)
                 {
                     draggablePart.SetTargetArea(areas[i]);
-                    //Debug.Log($"Assigned target area to part {i}: {areas[i].name}");
                 }
-                else
-                {
-                    Debug.LogWarning($"DraggablePart component not found on part {i}");
-                }
-            }
-            else
-            {
-                Debug.LogWarning($"No target area available for part {i}");
             }
 
-            //Debug.Log($"Part {i} position: {rectTransform.anchoredPosition}, scale: {scale}");
+            partObject.SetActive(false);
         }
     }
+
+    void UpdateVisibleParts()
+    {
+        int startIndex = currentPage * partsPerPage;
+
+        // Hide all parts first
+        foreach (GameObject part in currentActiveList)
+        {
+            part.SetActive(false);
+        }
+
+        // Show only the current page's parts
+        for (int i = startIndex; i < startIndex + partsPerPage && i < currentActiveList.Count; i++)
+        {
+            if (currentActiveList[i] != null)
+            {
+                currentActiveList[i].SetActive(true);
+            }
+        }
+
+        UpdateButtonsVisibility();
+    }
+
+    void UpdateButtonsVisibility()
+    {
+        if (leftButton != null)
+            leftButton.gameObject.SetActive(currentPage > 0);
+
+        if (rightButton != null)
+            rightButton.gameObject.SetActive((currentPage + 1) * partsPerPage < currentActiveList.Count);
+    }
+
+    void OnLeftButtonClick()
+    {
+        if (currentPage > 0)
+        {
+            currentPage--;
+            UpdateVisibleParts();
+        }
+    }
+
+    void OnRightButtonClick()
+    {
+        if ((currentPage + 1) * partsPerPage < currentActiveList.Count)
+        {
+            currentPage++;
+            UpdateVisibleParts();
+        }
+    }
+
+   /* public void InitializeDeskParts()
+    {
+        currentPage = 0;
+        InitializeParts(deskChairPartPrefabs, deskChairTargetAreas, uiPanel, deskChairParts);
+        currentActiveList = deskChairParts;
+        UpdateVisibleParts();
+    }
+
+    public void InitializeRugParts()
+    {
+        currentPage = 0;
+        InitializeParts(rugPosterPartPrefabs, rugPosterTargetAreas, uiPanel, rugPosterParts);
+        currentActiveList = rugPosterParts;
+        UpdateVisibleParts();
+    }
+
+    public void InitializeSofaParts()
+    {
+        currentPage = 0;
+        InitializeParts(sofaTVPartPrefabs, sofaTVTargetAreas, uiPanel, sofaTVParts);
+        currentActiveList = sofaTVParts;
+        UpdateVisibleParts();
+    }*/
 
     Vector3 GetScaleForPart(string partName)
     {
-        // Your existing GetScaleForPart logic here
         return new Vector3(0.76f, 6.05f, 1f);
-    }
-
-    void UpdateVisibleParts(List<GameObject> partsList)
-    {
-        for (int i = 0; i < partsList.Count; i++)
-        {
-            partsList[i].SetActive(true);
-        }
     }
 }

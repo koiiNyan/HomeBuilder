@@ -6748,6 +6748,7 @@ MonoBehaviour:
   tvController: {fileID: 978146481}
   partManager: {fileID: 1756178619}
   cameraController: {fileID: 1691560970}
+  cameraController02: {fileID: 0}
 --- !u!1 &2100570696
 GameObject:
   m_ObjectHideFlags: 0

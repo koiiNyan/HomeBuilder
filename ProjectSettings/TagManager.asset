@@ -12,6 +12,9 @@ TagManager:
   - RugUI
   - SofaUI
   - TVUI
+  - ToiletUI
+  - BathUI
+  - SinkUI
   layers:
   - Default
   - TransparentFX

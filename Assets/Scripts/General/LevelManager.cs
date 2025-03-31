@@ -24,6 +24,7 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private PartManager partManager;
     [SerializeField] private CameraController cameraController;
+    [SerializeField] private CameraController_Lvl02 cameraController02; // lvl02
 
     void Start()
     {

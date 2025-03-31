@@ -168,11 +168,7 @@
         160,
         161,
         162,
-        163,
-        164,
-        165,
-        166,
-        167
+        163
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -195,7 +191,7 @@
       "DisplayName": "Writing UnityEngine.TestRunner.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 219,
-      "PayloadLength": 45015,
+      "PayloadLength": 44366,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -207,7 +203,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.rsp2",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 45328,
+      "PayloadOffset": 44679,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
@@ -347,12 +343,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -406,7 +399,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -537,7 +529,7 @@
         1,
         2,
         3,
-        74
+        70
       ],
       "ToUseDependencies": [
         1,
@@ -640,19 +632,19 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        117,
-        124,
-        131,
-        138,
-        139,
+        75,
+        82,
+        113,
+        120,
+        127,
+        134,
+        135,
+        136,
+        137,
         140,
         141,
+        142,
+        143,
         144,
         145,
         146,
@@ -670,11 +662,7 @@
         158,
         159,
         160,
-        161,
-        162,
-        163,
-        164,
-        165
+        161
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 6
@@ -725,21 +713,6 @@
       "DebugActionIndex": 9
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
-      "DisplayName": "MovedFromExtractor UnityEngine.ARModule.dll_3CBE6944E46CC4E9",
-      "Action": "\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm\" \"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ARModule.dll\"",
-      "Inputs": [
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm"
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 10
-    },
-    {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
       "DisplayName": "MovedFromExtractor UnityEngine.AssetBundleModule.dll_6E6DAB351479288E",
       "Action": "\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm\" \"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AssetBundleModule.dll\"",
@@ -752,7 +725,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
@@ -767,7 +740,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
@@ -782,37 +755,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 13
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-      "DisplayName": "MovedFromExtractor UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8",
-      "Action": "\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm\" \"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterInputModule.dll\"",
-      "Inputs": [
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm"
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 14
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
-      "DisplayName": "MovedFromExtractor UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9",
-      "Action": "\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm\" \"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterRendererModule.dll\"",
-      "Inputs": [
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm"
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
@@ -827,7 +770,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
@@ -842,7 +785,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -857,7 +800,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_4A7B469CDF336854.mvfrm",
@@ -872,7 +815,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.dll_1A1F0B964961AB6E.mvfrm",
@@ -887,7 +830,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_4FCCA80651943975.mvfrm",
@@ -902,7 +845,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_C1C8BAD801022CCF.mvfrm",
@@ -917,7 +860,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_1B87ED4F22FE4E3A.mvfrm",
@@ -932,7 +875,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_BD014AA0794DCA6E.mvfrm",
@@ -947,7 +890,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_D245E47F8F99C0E2.mvfrm",
@@ -962,7 +905,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_1FB19315E4481FAD.mvfrm",
@@ -977,7 +920,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_22D6396932594233.mvfrm",
@@ -992,7 +935,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_FFB2C653AC6ADE7F.mvfrm",
@@ -1007,7 +950,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_50EC61B2E25FD2F6.mvfrm",
@@ -1022,7 +965,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_4C397BB7C25805C4.mvfrm",
@@ -1037,7 +980,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_C61F9146B8B4E3C1.mvfrm",
@@ -1052,7 +995,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_9F914B0118E943FD.mvfrm",
@@ -1067,7 +1010,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_EABF2F2A58E50036.mvfrm",
@@ -1082,7 +1025,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_9DA3166A55639CF5.mvfrm",
@@ -1097,7 +1040,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_4D2AFAADF1FA3763.mvfrm",
@@ -1112,7 +1055,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_7CC17FD3788CEF61.mvfrm",
@@ -1127,7 +1070,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_EF03FA1673ED910B.mvfrm",
@@ -1142,7 +1085,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_8F3774D5302E77BE.mvfrm",
@@ -1157,7 +1100,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_6621293CD6C43226.mvfrm",
@@ -1172,7 +1115,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_A3C2D1EB5B761AFD.mvfrm",
@@ -1187,7 +1130,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_AAF52D682271C249.mvfrm",
@@ -1202,7 +1145,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_87CED88FCA1B6098.mvfrm",
@@ -1217,7 +1160,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_059213CA03EE5C9E.mvfrm",
@@ -1232,7 +1175,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_E23D28134F415AAC.mvfrm",
@@ -1247,7 +1190,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_15A293C9F0B9AA5C.mvfrm",
@@ -1262,7 +1205,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_6771761CC7B88051.mvfrm",
@@ -1277,7 +1220,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_A00BF3D4322C3E8A.mvfrm",
@@ -1292,7 +1235,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_FC9A6BD661007415.mvfrm",
@@ -1307,7 +1250,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_4482A247F0842D33.mvfrm",
@@ -1322,7 +1265,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_8F609B478DFBB21B.mvfrm",
@@ -1337,7 +1280,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_066DDD9DDF75615A.mvfrm",
@@ -1352,7 +1295,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_136356EA8D8F7777.mvfrm",
@@ -1367,7 +1310,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_19E0F531F3E5E653.mvfrm",
@@ -1382,7 +1325,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_7EBF426EE3966BCC.mvfrm",
@@ -1397,7 +1340,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_654B461AF94E59C5.mvfrm",
@@ -1412,7 +1355,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_85FDEC6E72CD9E94.mvfrm",
@@ -1427,7 +1370,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_BF30BBCAC51095F9.mvfrm",
@@ -1442,7 +1385,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_F595D5ED6A391EAD.mvfrm",
@@ -1457,7 +1400,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_8419C7AB247A974D.mvfrm",
@@ -1472,7 +1415,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_94A889E5C065523B.mvfrm",
@@ -1487,7 +1430,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_437E1FF6BC8F0B8A.mvfrm",
@@ -1502,7 +1445,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_62BB8308DF4FCACE.mvfrm",
@@ -1517,7 +1460,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_31509ABFEF3CBA2C.mvfrm",
@@ -1532,7 +1475,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_55F16023956FE663.mvfrm",
@@ -1547,7 +1490,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_0F44E7A3E043E99F.mvfrm",
@@ -1562,7 +1505,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
@@ -1577,7 +1520,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
@@ -1592,7 +1535,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
@@ -1607,22 +1550,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 68
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
-      "DisplayName": "MovedFromExtractor UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055",
-      "Action": "\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm\" \"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VirtualTexturingModule.dll\"",
-      "Inputs": [
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm"
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
@@ -1637,7 +1565,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
@@ -1652,7 +1580,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -1667,20 +1595,20 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 45463,
-      "PayloadLength": 5794,
+      "PayloadOffset": 44814,
+      "PayloadLength": 5445,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll.mvfrm",
@@ -1691,12 +1619,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -1750,7 +1675,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -1824,54 +1748,50 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        73
+        69
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 51362,
+      "PayloadOffset": 50364,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 51466,
-      "PayloadLength": 38583,
+      "PayloadOffset": 50468,
+      "PayloadLength": 37934,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.rsp"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 90135,
+      "PayloadOffset": 88488,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.rsp2"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll (+2 others)",
@@ -2004,12 +1924,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -2063,7 +1980,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -2163,14 +2079,14 @@
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
       ],
       "ToBuildDependencies": [
-        75,
-        76,
-        77,
-        81
+        71,
+        72,
+        73,
+        77
       ],
       "ToUseDependencies": [
-        75,
-        77
+        71,
+        73
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.rsp"
@@ -2183,7 +2099,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 78
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_FBC62C826EB2B4B0.mvfrm",
@@ -2198,20 +2114,20 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 90262,
-      "PayloadLength": 5888,
+      "PayloadOffset": 88615,
+      "PayloadLength": 5539,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll.mvfrm",
@@ -2222,12 +2138,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -2281,7 +2194,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -2356,55 +2268,51 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        80
+        75,
+        76
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.UnityAdditionalFile.txt",
       "DisplayName": "Writing Autodesk.Fbx.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 96253,
+      "PayloadOffset": 94257,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.rsp",
       "DisplayName": "Writing Autodesk.Fbx.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 96355,
-      "PayloadLength": 41007,
+      "PayloadOffset": 94359,
+      "PayloadLength": 40358,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.rsp"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.rsp2",
       "DisplayName": "Writing Autodesk.Fbx.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 137446,
+      "PayloadOffset": 134801,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.rsp2"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.dll (+2 others)",
@@ -2537,12 +2445,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -2596,7 +2501,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -2728,15 +2632,15 @@
         "Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.ref.dll"
       ],
       "ToBuildDependencies": [
+        74,
         78,
-        82,
-        83,
-        84,
-        88
+        79,
+        80,
+        84
       ],
       "ToUseDependencies": [
-        82,
-        84
+        78,
+        80
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.rsp"
@@ -2749,7 +2653,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 85
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_FAE6DBEA21006BE5.mvfrm",
@@ -2763,24 +2667,24 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_FAE6DBEA21006BE5.mvfrm"
       ],
       "ToBuildDependencies": [
-        78
+        74
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.dll.mvfrm.rsp",
       "DisplayName": "Writing Autodesk.Fbx.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 137571,
-      "PayloadLength": 5964,
+      "PayloadOffset": 134926,
+      "PayloadLength": 5615,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Autodesk.Fbx.dll.mvfrm",
@@ -2792,12 +2696,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -2851,7 +2752,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -2926,56 +2826,52 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        87
+        75,
+        82,
+        83
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Formats.Fbx.Runtime.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 143651,
+      "PayloadOffset": 140657,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.rsp",
       "DisplayName": "Writing Unity.Formats.Fbx.Runtime.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 143766,
-      "PayloadLength": 31556,
+      "PayloadOffset": 140772,
+      "PayloadLength": 30907,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.rsp"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.rsp2",
       "DisplayName": "Writing Unity.Formats.Fbx.Runtime.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 175419,
+      "PayloadOffset": 171776,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.rsp2"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.dll (+2 others)",
@@ -3108,12 +3004,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -3167,7 +3060,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -3184,15 +3076,15 @@
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.ref.dll"
       ],
       "ToBuildDependencies": [
-        78,
-        89,
-        90,
-        91,
-        94
+        74,
+        85,
+        86,
+        87,
+        90
       ],
       "ToUseDependencies": [
-        89,
-        91
+        85,
+        87
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.rsp"
@@ -3205,20 +3097,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 92
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Formats.Fbx.Runtime.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 175557,
-      "PayloadLength": 5964,
+      "PayloadOffset": 171914,
+      "PayloadLength": 5615,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.Formats.Fbx.Runtime.dll.mvfrm",
@@ -3230,12 +3122,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -3289,7 +3178,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -3364,56 +3252,52 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        93
+        75,
+        82,
+        89
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 181629,
+      "PayloadOffset": 177637,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 181736,
-      "PayloadLength": 36637,
+      "PayloadOffset": 177744,
+      "PayloadLength": 35988,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.rsp"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 218462,
+      "PayloadOffset": 213821,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.rsp2"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll (+2 others)",
@@ -3546,12 +3430,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -3605,7 +3486,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -3680,15 +3560,15 @@
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
       ],
       "ToBuildDependencies": [
-        78,
-        95,
-        96,
-        97,
-        100
+        74,
+        91,
+        92,
+        93,
+        96
       ],
       "ToUseDependencies": [
-        95,
-        97
+        91,
+        93
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.rsp"
@@ -3701,20 +3581,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 98
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 218592,
-      "PayloadLength": 5964,
+      "PayloadOffset": 213951,
+      "PayloadLength": 5615,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll.mvfrm",
@@ -3726,12 +3606,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -3785,7 +3662,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -3860,56 +3736,52 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        99
+        75,
+        82,
+        95
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 224661,
+      "PayloadOffset": 219671,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 224765,
-      "PayloadLength": 37706,
+      "PayloadOffset": 219775,
+      "PayloadLength": 37057,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.rsp"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 262557,
+      "PayloadOffset": 256918,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.rsp2"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll (+2 others)",
@@ -4042,12 +3914,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -4101,7 +3970,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -4190,15 +4058,15 @@
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.ref.dll"
       ],
       "ToBuildDependencies": [
-        78,
-        101,
-        102,
-        103,
-        106
+        74,
+        97,
+        98,
+        99,
+        102
       ],
       "ToUseDependencies": [
-        101,
-        103
+        97,
+        99
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.rsp"
@@ -4211,20 +4079,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 104
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 262684,
-      "PayloadLength": 5964,
+      "PayloadOffset": 257045,
+      "PayloadLength": 5615,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll.mvfrm",
@@ -4236,12 +4104,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -4295,7 +4160,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -4370,56 +4234,52 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        105
+        75,
+        82,
+        101
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 268765,
+      "PayloadOffset": 262777,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 268881,
-      "PayloadLength": 85201,
+      "PayloadOffset": 262893,
+      "PayloadLength": 84552,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.rsp"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 354180,
+      "PayloadOffset": 347543,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.rsp2"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll (+2 others)",
@@ -4552,12 +4412,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -4611,7 +4468,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -5056,15 +4912,15 @@
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.ref.dll"
       ],
       "ToBuildDependencies": [
-        78,
-        107,
-        108,
-        109,
-        112
+        74,
+        103,
+        104,
+        105,
+        108
       ],
       "ToUseDependencies": [
-        107,
-        109
+        103,
+        105
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.rsp"
@@ -5077,20 +4933,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 110
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 354319,
-      "PayloadLength": 5964,
+      "PayloadOffset": 347682,
+      "PayloadLength": 5615,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm",
@@ -5102,12 +4958,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -5161,7 +5014,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -5236,56 +5088,52 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        111
+        75,
+        82,
+        107
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.UnityAdditionalFile.txt",
       "DisplayName": "Writing FbxBuildTestAssets.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 360392,
+      "PayloadOffset": 353406,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.rsp",
       "DisplayName": "Writing FbxBuildTestAssets.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 360500,
-      "PayloadLength": 31634,
+      "PayloadOffset": 353514,
+      "PayloadLength": 30985,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.rsp"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.rsp2",
       "DisplayName": "Writing FbxBuildTestAssets.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 392224,
+      "PayloadOffset": 384589,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.rsp2"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.dll (+2 others)",
@@ -5418,12 +5266,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -5477,7 +5322,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -5497,16 +5341,16 @@
       ],
       "ToBuildDependencies": [
         4,
-        78,
-        85,
-        113,
-        114,
-        115,
-        119
+        74,
+        81,
+        109,
+        110,
+        111,
+        115
       ],
       "ToUseDependencies": [
-        113,
-        115
+        109,
+        111
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.rsp"
@@ -5519,7 +5363,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 116
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_92B18B2BC17BCEA3.mvfrm",
@@ -5537,20 +5381,20 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.dll.mvfrm.rsp",
       "DisplayName": "Writing FbxBuildTestAssets.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 392355,
-      "PayloadLength": 5954,
+      "PayloadOffset": 384720,
+      "PayloadLength": 5605,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/FbxBuildTestAssets.dll.mvfrm",
@@ -5563,12 +5407,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -5622,7 +5463,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -5696,56 +5536,52 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        86,
-        117,
-        118
+        82,
+        113,
+        114
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 398426,
+      "PayloadOffset": 390442,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 398542,
-      "PayloadLength": 80504,
+      "PayloadOffset": 390558,
+      "PayloadLength": 79855,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.rsp"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 479144,
+      "PayloadOffset": 470511,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.rsp2"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll (+2 others)",
@@ -5878,12 +5714,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -5937,7 +5770,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -6356,16 +6188,16 @@
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
       ],
       "ToBuildDependencies": [
-        78,
-        110,
-        120,
-        121,
-        122,
-        126
+        74,
+        106,
+        116,
+        117,
+        118,
+        122
       ],
       "ToUseDependencies": [
-        120,
-        122
+        116,
+        118
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.rsp"
@@ -6378,7 +6210,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 123
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_27ACA245D8399F39.mvfrm",
@@ -6392,24 +6224,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_27ACA245D8399F39.mvfrm"
       ],
       "ToBuildDependencies": [
-        110
+        106
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 479283,
-      "PayloadLength": 6052,
+      "PayloadOffset": 470650,
+      "PayloadLength": 5703,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm",
@@ -6422,12 +6254,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -6481,7 +6310,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -6556,57 +6384,53 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        124,
-        125
+        75,
+        82,
+        120,
+        121
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 485453,
+      "PayloadOffset": 476471,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 485570,
-      "PayloadLength": 34883,
+      "PayloadOffset": 476588,
+      "PayloadLength": 34234,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.rsp"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 520552,
+      "PayloadOffset": 510921,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity\\My project\"",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.rsp2"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll (+2 others)",
@@ -6739,12 +6563,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -6798,7 +6619,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -6847,17 +6667,17 @@
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
       ],
       "ToBuildDependencies": [
-        78,
-        110,
+        74,
+        106,
+        119,
         123,
-        127,
-        128,
-        129,
-        133
+        124,
+        125,
+        129
       ],
       "ToUseDependencies": [
-        127,
-        129
+        123,
+        125
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.rsp"
@@ -6870,7 +6690,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 130
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_6EBD829C5A4313E8.mvfrm",
@@ -6884,24 +6704,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_6EBD829C5A4313E8.mvfrm"
       ],
       "ToBuildDependencies": [
-        123
+        119
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 520692,
-      "PayloadLength": 6140,
+      "PayloadOffset": 511061,
+      "PayloadLength": 5791,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll.mvfrm",
@@ -6915,12 +6735,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -6974,7 +6791,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -7049,58 +6865,54 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        124,
-        131,
-        132
+        75,
+        82,
+        120,
+        127,
+        128
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 526938,
+      "PayloadOffset": 516958,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "D:\\Unity\\My project",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 527043,
-      "PayloadLength": 32254,
+      "PayloadOffset": 517063,
+      "PayloadLength": 32508,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.rsp"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 559384,
+      "PayloadOffset": 549658,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.rsp2"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.dll (+2 others)",
@@ -7233,12 +7045,9 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
@@ -7292,7 +7101,6 @@
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
@@ -7305,15 +7113,34 @@
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll",
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll",
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll",
-        "Assets/Scripts/BedController.cs",
-        "Assets/Scripts/BookshelfController.cs",
-        "Assets/Scripts/CameraController.cs",
-        "Assets/Scripts/ChairController.cs",
-        "Assets/Scripts/DeskController.cs",
-        "Assets/Scripts/DraggablePart.cs",
-        "Assets/Scripts/GameManager.cs",
-        "Assets/Scripts/PartManager.cs",
-        "Assets/Scripts/ResolutionManager.cs",
+        "Assets/Scripts/General/AudioManager.cs",
+        "Assets/Scripts/General/DraggablePart.cs",
+        "Assets/Scripts/General/ICameraController.cs",
+        "Assets/Scripts/General/ILoadable.cs",
+        "Assets/Scripts/General/InfoManager.cs",
+        "Assets/Scripts/General/LevelManager.cs",
+        "Assets/Scripts/General/ParticleManager.cs",
+        "Assets/Scripts/General/ResolutionManager.cs",
+        "Assets/Scripts/General/SaveManager.cs",
+        "Assets/Scripts/Lvl02/BathController.cs",
+        "Assets/Scripts/Lvl02/CameraController_Lvl02.cs",
+        "Assets/Scripts/Lvl02/GameManager_Lvl02.cs",
+        "Assets/Scripts/Lvl02/PartManager_Lvl02.cs",
+        "Assets/Scripts/Lvl02/SinkController.cs",
+        "Assets/Scripts/Lvl02/ToiletController.cs",
+        "Assets/Scripts/Lvll01/BedController.cs",
+        "Assets/Scripts/Lvll01/BookshelfController.cs",
+        "Assets/Scripts/Lvll01/CameraController.cs",
+        "Assets/Scripts/Lvll01/ChairController.cs",
+        "Assets/Scripts/Lvll01/DeskController.cs",
+        "Assets/Scripts/Lvll01/GameManager.cs",
+        "Assets/Scripts/Lvll01/PartManager.cs",
+        "Assets/Scripts/Lvll01/PosterController.cs",
+        "Assets/Scripts/Lvll01/RugController.cs",
+        "Assets/Scripts/Lvll01/SofaController.cs",
+        "Assets/Scripts/Lvll01/TVController.cs",
+        "Assets/Scripts/MainMenu/MainMenuManager.cs",
+        "Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.rsp"
@@ -7324,22 +7151,22 @@
         "Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.ref.dll"
       ],
       "ToBuildDependencies": [
-        78,
-        85,
-        92,
-        98,
-        104,
-        110,
-        123,
+        74,
+        81,
+        88,
+        94,
+        100,
+        106,
+        119,
+        126,
         130,
-        134,
-        135,
-        136,
-        143
+        131,
+        132,
+        139
       ],
       "ToUseDependencies": [
-        134,
-        136
+        130,
+        132
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.rsp"
@@ -7351,7 +7178,7 @@
           "Value": "0"
         }
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Formats.Fbx.Runtime.ref.dll_AADE31D72B0AB607.mvfrm",
@@ -7365,11 +7192,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Formats.Fbx.Runtime.ref.dll_AADE31D72B0AB607.mvfrm"
       ],
       "ToBuildDependencies": [
-        92
+        88
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_B085F143991618E6.mvfrm",
@@ -7383,11 +7210,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_B085F143991618E6.mvfrm"
       ],
       "ToBuildDependencies": [
-        98
+        94
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_54050F91DBE64E14.mvfrm",
@@ -7401,11 +7228,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_54050F91DBE64E14.mvfrm"
       ],
       "ToBuildDependencies": [
-        104
+        100
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_F0190167D28F2F4D.mvfrm",
@@ -7419,24 +7246,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_F0190167D28F2F4D.mvfrm"
       ],
       "ToBuildDependencies": [
-        130
+        126
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 559480,
-      "PayloadLength": 6471,
+      "PayloadOffset": 549754,
+      "PayloadLength": 6122,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.dll.mvfrm",
@@ -7454,12 +7281,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_834BA441874F6620.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_977B70BD3AC13BDE.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_50FD2679B466A560.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_3CBE6944E46CC4E9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_6E6DAB351479288E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_EA769A026C27AE52.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_515EF6FD46448D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_87D2C6F42138F0C8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B3BF9565622367B9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_07840475E2FBD07B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_DF902EB260F93477.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_4C7F01B4AAD7B86F.mvfrm",
@@ -7513,7 +7337,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_C23E401C595D37EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_9441EF5963FCE0E4.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_0F801E6D2EB9C9F7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_1F489590A1FC0055.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D19168F48550F144.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_55DF09DAF22FB2E0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_04502BF90E8B3EA2.mvfrm",
@@ -7588,23 +7411,19 @@
         66,
         67,
         68,
-        69,
-        70,
-        71,
-        72,
-        79,
-        86,
-        124,
-        131,
-        138,
-        139,
-        140,
-        141,
-        142
+        75,
+        82,
+        120,
+        127,
+        134,
+        135,
+        136,
+        137,
+        138
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll",
@@ -7619,7 +7438,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -7634,7 +7453,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
@@ -7647,9 +7466,9 @@
         "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "ToBuildDependencies": [
-        78
+        74
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb",
@@ -7662,9 +7481,9 @@
         "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
       ],
       "ToBuildDependencies": [
-        78
+        74
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Autodesk.Fbx.dll",
@@ -7677,9 +7496,9 @@
         "Library/Bee/PlayerScriptAssemblies/Autodesk.Fbx.dll"
       ],
       "ToBuildDependencies": [
-        85
+        81
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Autodesk.Fbx.pdb",
@@ -7692,9 +7511,9 @@
         "Library/Bee/PlayerScriptAssemblies/Autodesk.Fbx.pdb"
       ],
       "ToBuildDependencies": [
-        85
+        81
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Formats.Fbx.Runtime.dll",
@@ -7707,9 +7526,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.Formats.Fbx.Runtime.dll"
       ],
       "ToBuildDependencies": [
-        92
+        88
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Formats.Fbx.Runtime.pdb",
@@ -7722,9 +7541,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.Formats.Fbx.Runtime.pdb"
       ],
       "ToBuildDependencies": [
-        92
+        88
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
@@ -7737,9 +7556,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "ToBuildDependencies": [
-        98
+        94
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb",
@@ -7752,9 +7571,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
       ],
       "ToBuildDependencies": [
-        98
+        94
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
@@ -7767,9 +7586,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
       ],
       "ToBuildDependencies": [
-        104
+        100
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb",
@@ -7782,9 +7601,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
       ],
       "ToBuildDependencies": [
-        104
+        100
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -7797,9 +7616,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "ToBuildDependencies": [
-        110
+        106
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb",
@@ -7812,9 +7631,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
       ],
       "ToBuildDependencies": [
-        110
+        106
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/FbxBuildTestAssets.dll",
@@ -7827,9 +7646,9 @@
         "Library/Bee/PlayerScriptAssemblies/FbxBuildTestAssets.dll"
       ],
       "ToBuildDependencies": [
-        116
+        112
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/FbxBuildTestAssets.pdb",
@@ -7842,9 +7661,9 @@
         "Library/Bee/PlayerScriptAssemblies/FbxBuildTestAssets.pdb"
       ],
       "ToBuildDependencies": [
-        116
+        112
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
@@ -7857,9 +7676,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "ToBuildDependencies": [
-        123
+        119
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb",
@@ -7872,9 +7691,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
       ],
       "ToBuildDependencies": [
-        123
+        119
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -7887,9 +7706,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "ToBuildDependencies": [
-        130
+        126
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb",
@@ -7902,9 +7721,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
       ],
       "ToBuildDependencies": [
-        130
+        126
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
@@ -7917,9 +7736,9 @@
         "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
       ],
       "ToBuildDependencies": [
-        137
+        133
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb",
@@ -7932,19 +7751,18 @@
         "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
       ],
       "ToBuildDependencies": [
-        137
+        133
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "BuildPlayerDataGenerator RuntimeInitializeOnLoads",
-      "Action": "\"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Autodesk.Fbx.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\FbxBuildTestAssets.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Formats.Fbx.Runtime.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\Unity\\My project\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\Unity\\My project\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"D:\\Unity\\My project\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\Unity\\My project\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\FbxBuildTestAssets.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Formats.Fbx.Runtime.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\Unity\\My project\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\Unity\\My project\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\Program Files\\Unity Hub\\Editor\\2022.3.43f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\Unity\\My project\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"D:\\Unity\\My project\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\Unity\\My project\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/Program Files/Unity Hub/Editor/2022.3.43f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
         "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "Library/Bee/PlayerScriptAssemblies/Autodesk.Fbx.dll",
         "Library/Bee/PlayerScriptAssemblies/FbxBuildTestAssets.dll",
         "Library/Bee/PlayerScriptAssemblies/Unity.Formats.Fbx.Runtime.dll",
         "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
@@ -7962,7 +7780,8 @@
         "Library/BuildPlayerData/Player/TypeDb-All.json"
       ],
       "ToBuildDependencies": [
-        144,
+        140,
+        142,
         146,
         148,
         150,
@@ -7970,13 +7789,11 @@
         154,
         156,
         158,
-        160,
-        162,
-        164
+        160
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -7985,10 +7802,10 @@
       "Outputs": [],
       "ToBuildDependencies": [
         6,
-        166
+        162
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 167
+      "DebugActionIndex": 163
     }
   ],
   "FileSignatures": [
@@ -8169,7 +7986,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 167
+          "ScriptAssembliesAndTypeDB": 163
         }
 ,  "DefaultNodes": [
     0

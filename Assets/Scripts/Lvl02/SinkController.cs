@@ -31,7 +31,7 @@ public class SinkController : MonoBehaviour, ILoadable
 
     void DestroyUIParts()
     {
-        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("BedUI");
+        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("SinkUI");
         foreach (GameObject part in uiParts)
         {
             Destroy(part);

@@ -23,7 +23,7 @@ public class PartManager_Lvl02: MonoBehaviour
 
     private int partsPerPage = 10;
     private int currentPage = 0;
-    private List<GameObject> currentActiveList;
+    public List<GameObject> currentActiveList;
 
     void Start()
     {
@@ -80,7 +80,16 @@ public class PartManager_Lvl02: MonoBehaviour
         // Hide all parts first
         foreach (GameObject part in currentActiveList)
         {
-            part.SetActive(false);
+            Debug.Log($"part= {part}!");
+
+            if (part)
+            {
+                DraggablePart draggable = part.GetComponent<DraggablePart>();
+                if (draggable != null && draggable.isPlaced == false)
+                {
+                    part.SetActive(false);
+                }
+            }
         }
 
         // Show only the current page's parts

@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetArea: {fileID: 0}
   placementThreshold: 50
-  dragScale: {x: 1.9, y: 15.125, z: 1}
+  dragScale: {x: 0.66, y: 4.98, z: 1}
   objectType: Toilet
 --- !u!225 &-2609723333930616348
 CanvasGroup:

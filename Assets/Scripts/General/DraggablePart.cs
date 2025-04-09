@@ -29,7 +29,7 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     private Vector3 dragScale = new Vector3(1.9f, 15.125f, 1f);
     public string objectType = "Bed"; // Default to "Bed", set to "Bookshelf" for bookshelf parts
 
-    private bool isPlaced = false;
+    public bool isPlaced = false;
     //private CameraController cameraController;
 
     private GameObject cameraRig;
@@ -163,13 +163,19 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
         if (IsCorrectPlacement())
         {
-            AudioManager.Instance.PlaySoundEffect(0);
+            //AudioManager.Instance.PlaySoundEffect(0); TODO
             SnapToTarget();
             isPlaced = true;
-            if (GameManager.Instance != null)
+            string currentScene = SceneManager.GetActiveScene().name;
+            if (currentScene == "Level01" && GameManager.Instance != null)
             {
                 GameManager.Instance.OnPartPlaced(this, objectType);
             }
+            else if (currentScene == "Level02" && GameManager_Lvl02.Instance != null)
+            {
+                GameManager_Lvl02.Instance.OnPartPlaced(this, objectType);
+            }
+            
             else
             {
                 Debug.LogError("GameManager.Instance is null in OnEndDrag");

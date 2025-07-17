@@ -145,6 +145,9 @@ public class GameManager_Lvl02 : MonoBehaviour
             CheckObjectCompletion(objectType, totalParts);
         }
 
+        //Debug.Log($"PLACED PART type={objectType} part = {part}!");
+
+        partManager.UpdateVisibleParts();
     }
 
     void CheckObjectCompletion(string objectType, int total)

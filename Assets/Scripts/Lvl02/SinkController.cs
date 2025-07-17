@@ -10,6 +10,8 @@ public class SinkController : MonoBehaviour, ILoadable
 
     private ParticleManager particleManager;
 
+    public PartManager_Lvl02 partManager;
+
     void Start()
     {
         particleManager = FindObjectOfType<ParticleManager>();
@@ -34,6 +36,7 @@ public class SinkController : MonoBehaviour, ILoadable
         GameObject[] uiParts = GameObject.FindGameObjectsWithTag("SinkUI");
         foreach (GameObject part in uiParts)
         {
+            partManager.UpdatePartList(part);
             Destroy(part);
         }
     }

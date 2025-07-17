@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-public class PartManager_Lvl02: MonoBehaviour
+public class PartManager_Lvl02 : MonoBehaviour
 {
     public RectTransform uiPanel;
     public GameObject[] partPrefabs;
@@ -73,8 +73,10 @@ public class PartManager_Lvl02: MonoBehaviour
         }
     }
 
-    void UpdateVisibleParts()
+    public void UpdateVisibleParts()
     {
+        //if (DrPart != null) currentActiveList.RemoveAll(obj => obj.name == DrPart.name);
+
         int startIndex = currentPage * partsPerPage;
 
         // Hide all parts first
@@ -131,32 +133,39 @@ public class PartManager_Lvl02: MonoBehaviour
         }
     }
 
-   /* public void InitializeDeskParts()
-    {
-        currentPage = 0;
-        InitializeParts(deskChairPartPrefabs, deskChairTargetAreas, uiPanel, deskChairParts);
-        currentActiveList = deskChairParts;
-        UpdateVisibleParts();
-    }
+    /* public void InitializeDeskParts()
+     {
+         currentPage = 0;
+         InitializeParts(deskChairPartPrefabs, deskChairTargetAreas, uiPanel, deskChairParts);
+         currentActiveList = deskChairParts;
+         UpdateVisibleParts();
+     }
 
-    public void InitializeRugParts()
-    {
-        currentPage = 0;
-        InitializeParts(rugPosterPartPrefabs, rugPosterTargetAreas, uiPanel, rugPosterParts);
-        currentActiveList = rugPosterParts;
-        UpdateVisibleParts();
-    }
+     public void InitializeRugParts()
+     {
+         currentPage = 0;
+         InitializeParts(rugPosterPartPrefabs, rugPosterTargetAreas, uiPanel, rugPosterParts);
+         currentActiveList = rugPosterParts;
+         UpdateVisibleParts();
+     }
 
-    public void InitializeSofaParts()
-    {
-        currentPage = 0;
-        InitializeParts(sofaTVPartPrefabs, sofaTVTargetAreas, uiPanel, sofaTVParts);
-        currentActiveList = sofaTVParts;
-        UpdateVisibleParts();
-    }*/
+     public void InitializeSofaParts()
+     {
+         currentPage = 0;
+         InitializeParts(sofaTVPartPrefabs, sofaTVTargetAreas, uiPanel, sofaTVParts);
+         currentActiveList = sofaTVParts;
+         UpdateVisibleParts();
+     }*/
 
     Vector3 GetScaleForPart(string partName)
     {
         return new Vector3(0.76f, 6.05f, 1f);
+    }
+
+
+    public void UpdatePartList(GameObject prt)
+    {
+        currentActiveList.RemoveAll(s => s == prt || s.Equals(prt));
+
     }
 }

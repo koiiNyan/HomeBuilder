@@ -10,6 +10,8 @@ public class BathController : MonoBehaviour, ILoadable
 
     private ParticleManager particleManager;
 
+    public PartManager_Lvl02 partManager;
+
     void Start()
     {
         particleManager = FindObjectOfType<ParticleManager>();
@@ -34,8 +36,10 @@ public class BathController : MonoBehaviour, ILoadable
         GameObject[] uiParts = GameObject.FindGameObjectsWithTag("BathUI");
         foreach (GameObject part in uiParts)
         {
+            partManager.UpdatePartList(part);
             Destroy(part);
         }
+        
     }
 
     void PlayParticleEffect()

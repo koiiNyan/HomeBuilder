@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3960816733453648520}
   - component: {fileID: 1643012220644274570}
   m_Layer: 0
-  m_Name: Bath Carpet
+  m_Name: Carpet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

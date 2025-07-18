@@ -18,7 +18,7 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
     private float warningTimer;
     private Vector3 cameraMovement;
     public Vector3 defaultTransform = new Vector3(6.1f, 16.73f, -10f);
-    //public Vector3 deskCameraPosition = new Vector3(6.11f, 16.19f, -10f);
+    public Vector3 washerCameraPosition = new Vector3(6.11f, 13.4f, -10f);
     public float cameraMoveSpeed = 2f;
     private bool isTransitioning = false;
 
@@ -155,9 +155,9 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
         }
     }
 
-   /* public void MoveCameraToDesk()
+    public void MoveCameraToWasher()
     {
-        StartCoroutine(MoveCameraCoroutine(deskCameraPosition, false));
+        StartCoroutine(MoveCameraCoroutine(washerCameraPosition, false));
     }
 
     private IEnumerator MoveCameraCoroutine(Vector3 position, bool needResize)
@@ -188,7 +188,7 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
         defaultTransform = position; // Update the default transform
     }
 
-    public void MoveCameraToRug()
+    /*public void MoveCameraToRug()
     {
         StartCoroutine(MoveCameraCoroutine(rugCameraPosition, false));
     }

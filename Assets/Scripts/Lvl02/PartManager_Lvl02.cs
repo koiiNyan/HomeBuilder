@@ -7,9 +7,9 @@ public class PartManager_Lvl02 : MonoBehaviour
     public RectTransform uiPanel;
     public GameObject[] partPrefabs;
     public RectTransform[] targetAreas;
-    /*public GameObject[] deskChairPartPrefabs;
-    public RectTransform[] deskChairTargetAreas;
-    public GameObject[] rugPosterPartPrefabs;
+    public GameObject[] washerCarpetTowelPartPrefabs;
+    public RectTransform[] washerCarpetTowelTargetAreas;
+    /*public GameObject[] rugPosterPartPrefabs;
     public RectTransform[] rugPosterTargetAreas;
     public GameObject[] sofaTVPartPrefabs;
     public RectTransform[] sofaTVTargetAreas;*/
@@ -17,7 +17,7 @@ public class PartManager_Lvl02 : MonoBehaviour
     public Button rightButton;
 
     private List<GameObject> parts = new List<GameObject>();
-    //private List<GameObject> deskChairParts = new List<GameObject>();
+    private List<GameObject> washerCarpetTowelParts = new List<GameObject>();
     //private List<GameObject> rugPosterParts = new List<GameObject>();
     //private List<GameObject> sofaTVParts = new List<GameObject>();
 
@@ -81,7 +81,7 @@ public class PartManager_Lvl02 : MonoBehaviour
         // Hide all parts first
         foreach (GameObject part in currentActiveList)
         {
-            Debug.Log($"part= {part}!");
+            //Debug.Log($"part= {part}!");
 
             if (part)
             {
@@ -132,14 +132,14 @@ public class PartManager_Lvl02 : MonoBehaviour
         }
     }
 
-    /* public void InitializeDeskParts()
+    public void InitializeWasherCarpetTowelParts()
      {
          currentPage = 0;
-         InitializeParts(deskChairPartPrefabs, deskChairTargetAreas, uiPanel, deskChairParts);
-         currentActiveList = deskChairParts;
+         InitializeParts(washerCarpetTowelPartPrefabs, washerCarpetTowelTargetAreas, uiPanel, washerCarpetTowelParts);
+         currentActiveList = washerCarpetTowelParts;
          UpdateVisibleParts();
      }
-
+/*
      public void InitializeRugParts()
      {
          currentPage = 0;

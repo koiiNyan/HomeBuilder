@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8889373788136668458}
   - component: {fileID: 1786211689371011540}
   m_Layer: 0
-  m_Name: Closet
+  m_Name: Toilet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

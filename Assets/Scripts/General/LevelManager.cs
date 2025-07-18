@@ -41,6 +41,14 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private SinkController sinkController;
     [SerializeField] private ToiletController toiletController;
 
+    [SerializeField] private GameObject washerObject;
+    [SerializeField] private GameObject carpetObject;
+    [SerializeField] private GameObject towelObject;
+
+    [SerializeField] private WasherController washerController;
+    [SerializeField] private CarpetController carpetController;
+    [SerializeField] private TowelController towelController;
+
 
     void Start()
     {
@@ -172,16 +180,23 @@ public class LevelManager : MonoBehaviour
             gameManager.SetToiletCompleted(saveData.toiletCompleted);
             gameManager.SetIsBathSinkToiletCompleted(saveData.IsBathSinkToiletCompleted);
 
+            gameManager.SetWasherCompleted(saveData.washerCompleted);
+            gameManager.SetCarpetCompleted(saveData.carpetCompleted);
+            gameManager.SetTowelCompleted(saveData.towelCompleted);
+            gameManager.SetIsWasherCarpetTowelCompleted(saveData.IsWasherCarpetTowelCompleted);
+
 
             // Set up the scene based on progress
-            /*if (saveData.IsBedBookCompleted && !saveData.IsDeskChairCompleted)
+            if (saveData.IsBathSinkToiletCompleted && !saveData.IsWasherCarpetTowelCompleted)
             {
-                deskObject.SetActive(true);
-                chairObject.SetActive(true);
-                partManager.InitializeDeskParts();
+                washerObject.SetActive(true);
+                carpetObject.SetActive(true);
+                towelObject.SetActive(true);
+                partManager02.InitializeWasherCarpetTowelParts();
                 cameraController.defaultTransform = cameraController.deskCameraPosition;
                 cameraController.ResetZoom();
             }
+            /*
             else if (saveData.IsDeskChairCompleted && !saveData.IsRugPosterCompleted)
             {
                 rugObject.SetActive(true);
@@ -210,6 +225,10 @@ public class LevelManager : MonoBehaviour
             UpdateObjectState(bathObject, bathController, saveData.bathCompleted);
             UpdateObjectState(sinkObject, sinkController, saveData.sinkCompleted);
             UpdateObjectState(toiletObject, toiletController, saveData.toiletCompleted);
+
+            UpdateObjectState(washerObject, washerController, saveData.washerCompleted);
+            UpdateObjectState(carpetObject, carpetController, saveData.carpetCompleted);
+            UpdateObjectState(towelObject, towelController, saveData.towelCompleted);
 
             Debug.Log("Save data applied successfully");
         }

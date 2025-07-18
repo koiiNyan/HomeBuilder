@@ -27,6 +27,11 @@ public static class SaveManager
         public bool sinkCompleted;
         public bool toiletCompleted;
         public bool IsBathSinkToiletCompleted;
+
+        public bool washerCompleted;
+        public bool carpetCompleted;
+        public bool towelCompleted;
+        public bool IsWasherCarpetTowelCompleted;
     }
 
     public static bool HasSaveFile()
@@ -79,6 +84,11 @@ public static class SaveManager
             saveData.sinkCompleted = gameManager.GetSinkCompleted();
             saveData.toiletCompleted = gameManager.GetToiletCompleted();      
             saveData.IsBathSinkToiletCompleted = gameManager.GetIsBathSinkToiletCompleted();
+
+            saveData.washerCompleted = gameManager.GetWasherCompleted();
+            saveData.carpetCompleted = gameManager.GetCarpetCompleted();
+            saveData.towelCompleted = gameManager.GetTowelCompleted();
+            saveData.IsWasherCarpetTowelCompleted = gameManager.GetIsWasherCarpetTowelCompleted();
 
         }
         // Add more conditions for other levels

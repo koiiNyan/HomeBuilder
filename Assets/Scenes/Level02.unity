@@ -1138,7 +1138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2627451, g: 0.44705883, b: 0.39215687, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1318,8 +1318,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 7862d42029d8a9c4387ffbbb09dca4c0, type: 2}
   - {fileID: 2100000, guid: df1617325e4da9a40b123d6a261a35a8, type: 2}
   - {fileID: 2100000, guid: 96da3eb8ac44670489583c2be91e4a88, type: 2}
-  particlePosition: {x: 0, y: 0, z: 0}
-  particleScale: {x: 0.004, y: 0.004, z: 0.004}
+  particlePosition: {x: -0.22, y: 0.93, z: 0.26}
+  particleScale: {x: 0.09, y: 0.09, z: 0.09}
   partManager: {fileID: 1756178623}
 --- !u!1 &342115497
 GameObject:
@@ -3564,7 +3564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -95.900024, y: -41.94995}
+  m_AnchoredPosition: {x: -95.8999, y: -41.94995}
   m_SizeDelta: {x: 837.4, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031222564
@@ -6015,7 +6015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2627451, g: 0.44705886, b: 0.3921569, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6626,6 +6626,13 @@ MonoBehaviour:
   partManager: {fileID: 0}
   cameraController: {fileID: 0}
   cameraController02: {fileID: 1691560970}
+  partManager02: {fileID: 1756178623}
+  bathObject: {fileID: 80157344}
+  sinkObject: {fileID: 325667372}
+  toiletObject: {fileID: 61637992}
+  bathController: {fileID: 80157345}
+  sinkController: {fileID: 325667373}
+  toiletController: {fileID: 61637993}
 --- !u!1 &2078305254
 GameObject:
   m_ObjectHideFlags: 0

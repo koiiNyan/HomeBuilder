@@ -73,6 +73,7 @@ public class GameManager_Lvl02 : MonoBehaviour
     public bool GetIsDeskChairCompleted() => IsDeskChairCompleted;
     public bool GetIsRugPosterCompleted() => IsRugPosterCompleted;
     public bool GetIsSofaTVCompleted() => IsSofaTVCompleted;*/
+    public bool GetIsBathSinkToiletCompleted() => IsBathSinkToiletCompleted;
 
 
     // Public setters

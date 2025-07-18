@@ -75,7 +75,6 @@ public class PartManager_Lvl02 : MonoBehaviour
 
     public void UpdateVisibleParts()
     {
-        //if (DrPart != null) currentActiveList.RemoveAll(obj => obj.name == DrPart.name);
 
         int startIndex = currentPage * partsPerPage;
 

@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+
+    [Header("Level01")]
     [SerializeField] private GameObject bedObject;
     [SerializeField] private GameObject bookshelfObject;
     [SerializeField] private GameObject deskObject;
@@ -24,7 +26,21 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private PartManager partManager;
     [SerializeField] private CameraController cameraController;
+
+
+
+    [Header("Level02")]
     [SerializeField] private CameraController_Lvl02 cameraController02; // lvl02
+    [SerializeField] private PartManager_Lvl02 partManager02;
+
+    [SerializeField] private GameObject bathObject;
+    [SerializeField] private GameObject sinkObject;
+    [SerializeField] private GameObject toiletObject;
+
+    [SerializeField] private BathController bathController;
+    [SerializeField] private SinkController sinkController;
+    [SerializeField] private ToiletController toiletController;
+
 
     void Start()
     {
@@ -136,6 +152,64 @@ public class LevelManager : MonoBehaviour
             UpdateObjectState(posterObject, posterController, saveData.posterCompleted);
             UpdateObjectState(sofaObject, sofaController, saveData.sofaCompleted);
             UpdateObjectState(tvObject, tvController, saveData.tvCompleted);
+
+            Debug.Log("Save data applied successfully");
+        }
+
+        else if (saveData.levelName == "Level02")
+
+        {
+            GameManager_Lvl02 gameManager = FindObjectOfType<GameManager_Lvl02>();
+            if (gameManager == null)
+            {
+                Debug.LogError("GameManager not found in the scene");
+                return;
+            }
+
+            // Apply the save data to GameManager
+            gameManager.SetBathCompleted(saveData.bathCompleted);
+            gameManager.SetSinkCompleted(saveData.sinkCompleted);
+            gameManager.SetToiletCompleted(saveData.toiletCompleted);
+            gameManager.SetIsBathSinkToiletCompleted(saveData.IsBathSinkToiletCompleted);
+
+
+            // Set up the scene based on progress
+            /*if (saveData.IsBedBookCompleted && !saveData.IsDeskChairCompleted)
+            {
+                deskObject.SetActive(true);
+                chairObject.SetActive(true);
+                partManager.InitializeDeskParts();
+                cameraController.defaultTransform = cameraController.deskCameraPosition;
+                cameraController.ResetZoom();
+            }
+            else if (saveData.IsDeskChairCompleted && !saveData.IsRugPosterCompleted)
+            {
+                rugObject.SetActive(true);
+                posterObject.SetActive(true);
+                partManager.InitializeRugParts();
+                cameraController.defaultTransform = cameraController.rugCameraPosition;
+                cameraController.ResetZoom();
+            }
+            else if (saveData.IsRugPosterCompleted && !saveData.IsSofaTVCompleted)
+            {
+                sofaObject.SetActive(true);
+                tvObject.SetActive(true);
+                partManager.InitializeSofaParts();
+                cameraController.defaultTransform = cameraController.sofaTVCameraPosition;
+                cameraController.ResetZoom();
+            }
+            else if (saveData.IsSofaTVCompleted)
+            {
+                cameraController.defaultTransform = cameraController.finalPosition;
+                cameraController.defaultZoom = 10f;
+                cameraController.ResetZoom();
+                gameManager.infoManager.ShowPanel();
+            } */
+
+            // Update objects based on saved state
+            UpdateObjectState(bathObject, bathController, saveData.bathCompleted);
+            UpdateObjectState(sinkObject, sinkController, saveData.sinkCompleted);
+            UpdateObjectState(toiletObject, toiletController, saveData.toiletCompleted);
 
             Debug.Log("Save data applied successfully");
         }

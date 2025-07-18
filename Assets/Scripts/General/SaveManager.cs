@@ -9,6 +9,7 @@ public static class SaveManager
     public class SaveData
     {
         public string levelName;
+        //lvl01
         public bool bedCompleted;
         public bool bookshelfCompleted;
         public bool deskCompleted;
@@ -21,7 +22,11 @@ public static class SaveManager
         public bool IsDeskChairCompleted;
         public bool IsRugPosterCompleted;
         public bool IsSofaTVCompleted;
-        // Add fields for other levels here
+        //lvl02
+        public bool bathCompleted;
+        public bool sinkCompleted;
+        public bool toiletCompleted;
+        public bool IsBathSinkToiletCompleted;
     }
 
     public static bool HasSaveFile()
@@ -47,8 +52,6 @@ public static class SaveManager
                 return;
             }
 
-            Debug.Log($"SaveManager: Bed completed state from GameManager: {saveData.bedCompleted}");
-
 
             saveData.bedCompleted = gameManager.GetBedCompleted();
             saveData.bookshelfCompleted = gameManager.GetBookshelfCompleted();
@@ -65,8 +68,18 @@ public static class SaveManager
         }
         else if (levelName == "Level02")
         {
-            //GameManager_Lvl02 gameManager = Object.FindObjectOfType<GameManager_Lvl02>();
-            // Save Level02 specific data
+            GameManager_Lvl02 gameManager = Object.FindObjectOfType<GameManager_Lvl02>();
+            if (gameManager == null)
+            {
+                Debug.LogError("SaveManager: GameManager not found!");
+                return;
+            }
+
+            saveData.bathCompleted = gameManager.GetBathCompleted();
+            saveData.sinkCompleted = gameManager.GetSinkCompleted();
+            saveData.toiletCompleted = gameManager.GetToiletCompleted();      
+            saveData.IsBathSinkToiletCompleted = gameManager.GetIsBathSinkToiletCompleted();
+
         }
         // Add more conditions for other levels
 

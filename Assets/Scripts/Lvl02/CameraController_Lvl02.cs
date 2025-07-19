@@ -22,11 +22,7 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
     public float cameraMoveSpeed = 2f;
     private bool isTransitioning = false;
 
-
-    //public Vector3 rugCameraPosition = new Vector3(12.2f, 17.35f, -10f);
-   // public Vector3 sofaTVCameraPosition = new Vector3(15.6f, 14.8f, -10f);
-
-   // public Vector3 finalPosition = new Vector3(10.5f,16.7f,-10.5f);
+    public Vector3 finalPosition = new Vector3(10.5f,16.7f,-10.5f);
 
     public interface ICameraController
     {
@@ -188,19 +184,9 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
         defaultTransform = position; // Update the default transform
     }
 
-    /*public void MoveCameraToRug()
-    {
-        StartCoroutine(MoveCameraCoroutine(rugCameraPosition, false));
-    }
-
-    public void MoveCameraToSofa()
-    {
-        StartCoroutine(MoveCameraCoroutine(sofaTVCameraPosition, false));
-    }
-
     public void MoveCameraToFinal()
     {
         StartCoroutine(MoveCameraCoroutine(finalPosition, true));
-    }*/
+    }
 
 }

@@ -1699,11 +1699,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 342115500}
   - {fileID: 1713533468}
   - {fileID: 1973471434}
   - {fileID: 1807060509}
   - {fileID: 1031222563}
+  - {fileID: 342115500}
   - {fileID: 1679108114}
   - {fileID: 1052220146}
   m_Father: {fileID: 0}
@@ -6749,6 +6749,19 @@ MonoBehaviour:
   partManager: {fileID: 1756178619}
   cameraController: {fileID: 1691560970}
   cameraController02: {fileID: 0}
+  partManager02: {fileID: 0}
+  bathObject: {fileID: 0}
+  sinkObject: {fileID: 0}
+  toiletObject: {fileID: 0}
+  bathController: {fileID: 0}
+  sinkController: {fileID: 0}
+  toiletController: {fileID: 0}
+  washerObject: {fileID: 0}
+  carpetObject: {fileID: 0}
+  towelObject: {fileID: 0}
+  washerController: {fileID: 0}
+  carpetController: {fileID: 0}
+  towelController: {fileID: 0}
 --- !u!1 &2100570696
 GameObject:
   m_ObjectHideFlags: 0

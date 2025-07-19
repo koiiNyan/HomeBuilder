@@ -15,6 +15,9 @@ TagManager:
   - ToiletUI
   - BathUI
   - SinkUI
+  - CarpetUI
+  - WasherUI
+  - TowelUI
   layers:
   - Default
   - TransparentFX

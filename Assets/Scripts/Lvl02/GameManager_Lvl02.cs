@@ -197,40 +197,7 @@ public class GameManager_Lvl02 : MonoBehaviour
 
                 CheckWasherCarpetTowelObjectsCompleted();
             }
-            /*
-            if (!IsRugPosterCompleted)
-            {
-                if (objectType == "Rug" && rugController != null)
-                {
-                    rugCompleted = true;
-                    rugController.OnAllPartsPlaced();
-                }
-
-                if (objectType == "Poster" && posterController != null)
-                {
-                    posterCompleted = true;
-                    posterController.OnAllPartsPlaced();
-                }
-
-                CheckRugPosterObjectsCompleted();
-            }
-
-            if (!IsSofaTVCompleted)
-            {
-                if (objectType == "Sofa" && sofaController != null)
-                {
-                    sofaCompleted = true;
-                    sofaController.OnAllPartsPlaced();
-                }
-
-                if (objectType == "TV" && tvController != null)
-                {
-                    tvCompleted = true;
-                    tvController.OnAllPartsPlaced();
-                }
-
-                CheckSofaTVObjectsCompleted();
-            }*/
+            
         }
 
 
@@ -281,11 +248,6 @@ public class GameManager_Lvl02 : MonoBehaviour
                (placedParts["Carpet"].Count > 0 && placedParts["Carpet"].Count < totalParts) ||
                (placedParts["Towel"].Count > 0 && placedParts["Towel"].Count < totalParts);
 
-               /*(placedParts["Rug"].Count > 0 && placedParts["Rug"].Count < totalParts) ||
-               (placedParts["Poster"].Count > 0 && placedParts["Poster"].Count < totalParts) ||
-
-                (placedParts["Sofa"].Count > 0 && placedParts["Sofa"].Count < totalParts) ||
-                (placedParts["TV"].Count > 0 && placedParts["TV"].Count < totalParts);*/
     }
 
 
@@ -294,77 +256,7 @@ public class GameManager_Lvl02 : MonoBehaviour
     {
         if (washerCompleted && carpetCompleted && towelCompleted)
         {
-            //ActivateRugPoster();
             IsWasherCarpetTowelCompleted = true;
-        }
-    }
-    /*
-    void ActivateRugPoster()
-    {
-        if (rugObject != null && posterObject != null)
-        {
-            rugObject.SetActive(true);
-            posterObject.SetActive(true);
-            partManager.InitializeRugParts();
-
-
-            // Move camera to new position
-            if (cameraController != null)
-            {
-                cameraController.MoveCameraToRug();
-            }
-            else
-            {
-                Debug.LogError("CameraController is not available!");
-            }
-        }
-        else
-        {
-            Debug.LogError("Desk object is not assigned in the GameManager!");
-        }
-    }
-
-    void CheckRugPosterObjectsCompleted()
-    {
-        if (rugCompleted && posterCompleted)
-        {
-            ActivateSofaTV();
-            IsRugPosterCompleted = true;
-        }
-    }
-
-    void ActivateSofaTV()
-    {
-        if (sofaObject != null && tvObject != null)
-        {
-            sofaObject.SetActive(true);
-            tvObject.SetActive(true);
-            partManager.InitializeSofaParts();
-
-
-            // Move camera to new position
-            if (cameraController != null)
-            {
-                cameraController.MoveCameraToSofa();
-            }
-            else
-            {
-                Debug.LogError("CameraController is not available!");
-            }
-        }
-        else
-        {
-            Debug.LogError("Desk object is not assigned in the GameManager!");
-        }
-    }
-
-    void CheckSofaTVObjectsCompleted()
-    {
-        if (sofaCompleted && tvCompleted)
-        {
-            //ActivateDeskChair();
-            IsSofaTVCompleted = true;
-            // Move camera to new position
             if (cameraController != null)
             {
                 cameraController.MoveCameraToFinal();
@@ -375,5 +267,6 @@ public class GameManager_Lvl02 : MonoBehaviour
                 Debug.LogError("CameraController is not available!");
             }
         }
-    }*/
+    }
+
 }

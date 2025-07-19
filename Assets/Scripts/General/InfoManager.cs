@@ -10,6 +10,13 @@ namespace General
         public GameObject instructionsPanel;
         public GameObject nextLvlPanel;
 
+        private string levelName;
+
+        void Start()
+        {
+            levelName = SceneManager.GetActiveScene().name;
+        }
+
         public void CloseInstructions()
         {
             instructionsPanel.SetActive(false);
@@ -32,7 +39,7 @@ namespace General
 
         public void Next()
         {
-            SceneManager.LoadScene("Level02");
+            if (levelName == "Level01") SceneManager.LoadScene("Level02");
         }
 
         public void Menu()

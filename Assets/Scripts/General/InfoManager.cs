@@ -10,6 +10,8 @@ namespace General
         public GameObject instructionsPanel;
         public GameObject nextLvlPanel;
 
+        public List<GameObject> uiElements;
+
         private string levelName;
 
         void Start()
@@ -20,11 +22,21 @@ namespace General
         public void CloseInstructions()
         {
             instructionsPanel.SetActive(false);
+
+            for (int i = 0; i < uiElements.Count; i++)
+            {
+                uiElements[i].SetActive(true);
+            }
         }
 
-        public void ControlInstructions()
+        public void OpenInstructions()
         {
-            instructionsPanel.SetActive(!instructionsPanel.activeSelf);
+            instructionsPanel.SetActive(true);
+            for (int i = 0; i < uiElements.Count; i++)
+            {
+                uiElements[i].SetActive(false);
+            }
+
         }
 
         public void ExitGame()
@@ -40,6 +52,7 @@ namespace General
         public void Next()
         {
             if (levelName == "Level01") SceneManager.LoadScene("Level02");
+            else if (levelName == "Level02") SceneManager.LoadScene("Level03");
         }
 
         public void Menu()

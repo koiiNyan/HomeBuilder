@@ -18,6 +18,24 @@ TagManager:
   - CarpetUI
   - WasherUI
   - TowelUI
+  - KitchenUI
+  - CookerUI
+  - FridgeUI
+  - TableUI
+  - DishesUI
+  - Glass01UI
+  - Glass02UI
+  - Glass03UI
+  - Glass04UI
+  - Glass05UI
+  - TableItemsUI
+  - MicrowaveUI
+  - PanUI
+  - VaseUI
+  - Chair01UI
+  - Chair02UI
+  - Chair03UI
+  - Chair04UI
   layers:
   - Default
   - TransparentFX

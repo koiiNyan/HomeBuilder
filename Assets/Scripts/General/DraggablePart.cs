@@ -78,6 +78,12 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             {
                 cameraController = cameraRig.GetComponent<CameraController_Lvl02>();
             }
+
+            else if (currentScene == "Level03")
+            {
+                cameraController = cameraRig.GetComponent<CameraController_Lvl03>();
+            }
+
             else
             {
                 cameraController = cameraRig.GetComponent<CameraController>();
@@ -90,6 +96,12 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             {
                 cameraController = FindObjectOfType<CameraController_Lvl02>();
             }
+
+            else if (currentScene == "Level03")
+            {
+                cameraController = FindObjectOfType<CameraController_Lvl03>();
+            }
+
             else
             {
                 cameraController = FindObjectOfType<CameraController>();
@@ -175,7 +187,12 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             {
                 GameManager_Lvl02.Instance.OnPartPlaced(this, objectType);
             }
-            
+
+            else if (currentScene == "Level03" && GameManager_Lvl03.Instance != null)
+            {
+                GameManager_Lvl03.Instance.OnPartPlaced(this, objectType);
+            }
+
             else
             {
                 Debug.LogError("GameManager.Instance is null in OnEndDrag");

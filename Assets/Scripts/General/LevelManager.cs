@@ -193,8 +193,8 @@ public class LevelManager : MonoBehaviour
                 carpetObject.SetActive(true);
                 towelObject.SetActive(true);
                 partManager02.InitializeWasherCarpetTowelParts();
-                cameraController.defaultTransform = cameraController.deskCameraPosition;
-                cameraController.ResetZoom();
+                cameraController02.defaultTransform = cameraController02.washerCameraPosition;
+                cameraController02.ResetZoom();
             }
             /*
             else if (saveData.IsDeskChairCompleted && !saveData.IsRugPosterCompleted)

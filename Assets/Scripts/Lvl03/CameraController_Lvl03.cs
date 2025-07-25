@@ -18,7 +18,7 @@ public class CameraController_Lvl03 : MonoBehaviour, ICameraController
     private Camera cam;
     private float warningTimer;
     private Vector3 cameraMovement;
-    public Vector3 defaultTransform = new Vector3(6.7f, 17.51f, -10f);
+    public Vector3 defaultTransform;// = new Vector3(6.7f, 17.51f, -10f);
     //public Vector3 washerCameraPosition = new Vector3(6.11f, 13.4f, -10f);
     public float cameraMoveSpeed = 2f;
     private bool isTransitioning = false;

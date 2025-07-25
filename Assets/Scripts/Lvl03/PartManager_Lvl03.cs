@@ -7,8 +7,8 @@ public class PartManager_Lvl03 : MonoBehaviour
     public RectTransform uiPanel;
     public GameObject[] partPrefabs;
     public RectTransform[] targetAreas;
-    public GameObject[] washerCarpetTowelPartPrefabs;
-    public RectTransform[] washerCarpetTowelTargetAreas;
+    //public GameObject[] washerCarpetTowelPartPrefabs;
+    //public RectTransform[] washerCarpetTowelTargetAreas;
     /*public GameObject[] rugPosterPartPrefabs;
     public RectTransform[] rugPosterTargetAreas;
     public GameObject[] sofaTVPartPrefabs;
@@ -17,7 +17,7 @@ public class PartManager_Lvl03 : MonoBehaviour
     public Button rightButton;
 
     private List<GameObject> parts = new List<GameObject>();
-    private List<GameObject> washerCarpetTowelParts = new List<GameObject>();
+    //private List<GameObject> washerCarpetTowelParts = new List<GameObject>();
     //private List<GameObject> rugPosterParts = new List<GameObject>();
     //private List<GameObject> sofaTVParts = new List<GameObject>();
 
@@ -141,7 +141,7 @@ public class PartManager_Lvl03 : MonoBehaviour
         }
     }
 
-    public void InitializeWasherCarpetTowelParts()
+    /*public void InitializeWasherCarpetTowelParts()
     {
         currentPage = 0;
         InitializeParts(washerCarpetTowelPartPrefabs, washerCarpetTowelTargetAreas, uiPanel, washerCarpetTowelParts);

@@ -183,7 +183,8 @@ public class PartManager_Lvl03 : MonoBehaviour
         for (int i = 0; i < currentActiveList.Count; i++)
         {
             GameObject part = currentActiveList[i];
-            if (part != null)
+            
+            if (part != null && !part.GetComponent<DraggablePart>().isPlaced)
             {
                 RectTransform rectTransform = part.GetComponent<RectTransform>();
 

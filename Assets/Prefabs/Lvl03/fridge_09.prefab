@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetArea: {fileID: 0}
   placementThreshold: 50
-  dragScale: {x: 1.8, y: 16.79, z: 1}
+  dragScale: {x: 2.67, y: 12.84, z: 1}
   objectType: Fridge
   isPlaced: 0
 --- !u!225 &-2609723333930616348

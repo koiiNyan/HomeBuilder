@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetArea: {fileID: 0}
   placementThreshold: 50
-  dragScale: {x: 1.8, y: 16.79, z: 1}
+  dragScale: {x: 0.74, y: 4.02, z: 1}
   objectType: Cooker
   isPlaced: 0
 --- !u!225 &-2609723333930616348

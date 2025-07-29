@@ -191,7 +191,9 @@ public class PartManager_Lvl03 : MonoBehaviour
                 int slotIndex = i % slotXPositions.Length;
                 float xPos = slotXPositions[slotIndex];
                 rectTransform.anchoredPosition = new Vector2(xPos, rectTransform.anchoredPosition.y);
+                part.GetComponent<DraggablePart>().initialPosition = rectTransform.position;
             }
         }
+
     }
 }

@@ -26,15 +26,15 @@ public class GameManager_Lvl03 : MonoBehaviour
     public GameObject chair03Object;
     public Chair03Controller chair03Controller;
 
-    /*
-    public GameObject posterObject;
-    public PosterController posterController;
 
-    public GameObject sofaObject;
-    public SofaController sofaController;
+    public GameObject chair04Object;
+    public Chair04Controller chair04Controller;
 
-    public GameObject tvObject;
-    public TVController tvController;*/
+    public GameObject tableObject;
+    public TableController tableController;
+
+    public GameObject tableItemsObject;
+    public TableItemsController tableItems;
 
     private bool kitchenCompleted = false;
     private bool cookerCompleted = false;
@@ -44,12 +44,11 @@ public class GameManager_Lvl03 : MonoBehaviour
     private bool chair02Completed = false;
     private bool chair03Completed = false;
 
-    /*
-    private bool rugCompleted = false;
-    private bool posterCompleted = false;
 
-    private bool sofaCompleted = false;
-    private bool tvCompleted = false;*/
+    private bool chair04Completed = false;
+    private bool tableCompleted = false;
+    private bool tableItemsCompleted = false;
+
 
     private CameraController_Lvl03 cameraController;
     public PartManager_Lvl03 partManager;

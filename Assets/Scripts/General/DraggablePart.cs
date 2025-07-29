@@ -7,7 +7,7 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     private RectTransform rectTransform;
     private Canvas canvas;
     private CanvasGroup canvasGroup;
-    private Vector3 initialPosition;
+    public Vector3 initialPosition;
     private Vector3 initialScale;
     private Vector3 offset;
 

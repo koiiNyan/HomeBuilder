@@ -17,14 +17,14 @@ public class GameManager_Lvl03 : MonoBehaviour
     public CookerController cookerController;
     public FridgeController fridgeController;
 
-    /*public GameObject washerObject; // Reference to the inactive desk in the scene
-    public WasherController washerController;
+    public GameObject chair01Object; 
+    public Chair01Controller chair01Controller;
 
-    public GameObject carpetObject;
-    public CarpetController carpetController;
+    public GameObject chair02Object;
+    public Chair02Controller chair02Controller;
 
-    public GameObject towelObject;
-    public TowelController towelController;
+    public GameObject chair03Object;
+    public Chair03Controller chair03Controller;
 
     /*
     public GameObject posterObject;
@@ -40,9 +40,9 @@ public class GameManager_Lvl03 : MonoBehaviour
     private bool cookerCompleted = false;
     private bool fridgeCompleted = false;
 
-    /*private bool washerCompleted = false;
-    private bool carpetCompleted = false;
-    private bool towelCompleted = false;
+    private bool chair01Completed = false;
+    private bool chair02Completed = false;
+    private bool chair03Completed = false;
 
     /*
     private bool rugCompleted = false;
@@ -55,7 +55,7 @@ public class GameManager_Lvl03 : MonoBehaviour
     public PartManager_Lvl03 partManager;
 
     private bool IsKitchenCookerFridgeCompleted = false;
-    //private bool IsWasherCarpetTowelCompleted = false;
+    private bool IsChair01Chair02Chair03Completed = false;
     //private bool IsRugPosterCompleted = false;
     //private bool IsSofaTVCompleted = false;
 
@@ -65,16 +65,16 @@ public class GameManager_Lvl03 : MonoBehaviour
     public bool GetCookerCompleted() => cookerCompleted;
     public bool GetFridgeCompleted() => fridgeCompleted;
 
-    /*public bool GetWasherCompleted() => washerCompleted;
-    public bool GetCarpetCompleted() => carpetCompleted;
-    public bool GetTowelCompleted() => towelCompleted;
+    public bool GetChair01Completed() => chair01Completed;
+    public bool GetChair02Completed() => chair02Completed;
+    public bool GetChair03Completed() => chair03Completed;
     /*public bool GetSofaCompleted() => sofaCompleted;
     public bool GetTVCompleted() => tvCompleted;
     public bool GetIsBedBookCompleted() => IsBedBookCompleted;
     public bool GetIsDeskChairCompleted() => IsDeskChairCompleted;
     public bool GetIsRugPosterCompleted() => IsRugPosterCompleted; */
     public bool GetIsKitchenCookerFridgeCompleted() => IsKitchenCookerFridgeCompleted;
-    //public bool GetIsWasherCarpetTowelCompleted() => IsWasherCarpetTowelCompleted;
+    public bool GetIsChair01Chair02Chair03Completed() => IsChair01Chair02Chair03Completed;
 
 
     // Public setters
@@ -82,14 +82,14 @@ public class GameManager_Lvl03 : MonoBehaviour
     public void SetCookerCompleted(bool value) => cookerCompleted = value;
     public void SetFridgeCompleted(bool value) => fridgeCompleted = value;
 
-    /*public void SetWasherCompleted(bool value) => washerCompleted = value;
-    public void SetCarpetCompleted(bool value) => carpetCompleted = value;
-    public void SetTowelCompleted(bool value) => towelCompleted = value;
+    public void SetChair01Completed(bool value) => chair01Completed = value;
+    public void SetChair02Completed(bool value) => chair02Completed = value;
+    public void SetChair03Completed(bool value) => chair03Completed = value;
     /*public void SetSofaCompleted(bool value) => sofaCompleted = value;
     public void SetTVCompleted(bool value) => tvCompleted = value;*/
 
     public void SetIsKitchenCookerFridgeCompleted(bool value) => IsKitchenCookerFridgeCompleted = value;
-    //public void SetIsWasherCarpetTowelCompleted(bool value) => IsWasherCarpetTowelCompleted = value;
+    public void SetIsChair01Chair02Chair03Completed(bool value) => IsChair01Chair02Chair03Completed = value;
     //public void SetIsRugPosterCompleted(bool value) => IsRugPosterCompleted = value;
     //public void SetIsSofaTVCompleted(bool value) => IsSofaTVCompleted = value;
 
@@ -108,9 +108,9 @@ public class GameManager_Lvl03 : MonoBehaviour
         placedParts["Cooker"] = new List<DraggablePart>();
         placedParts["Fridge"] = new List<DraggablePart>();
 
-        /*placedParts["Washer"] = new List<DraggablePart>();
-        placedParts["Carpet"] = new List<DraggablePart>();
-        placedParts["Towel"] = new List<DraggablePart>();
+        placedParts["Chair01"] = new List<DraggablePart>();
+        placedParts["Chair02"] = new List<DraggablePart>();
+        placedParts["Chair03"] = new List<DraggablePart>();
         /*placedParts["Sofa"] = new List<DraggablePart>();
         placedParts["TV"] = new List<DraggablePart>();*/
 
@@ -175,28 +175,28 @@ public class GameManager_Lvl03 : MonoBehaviour
 
                 CheckKitchenCookerFridgeObjectsCompleted();
             }
-            /*if (!IsWasherCarpetTowelCompleted)
+            if (!IsChair01Chair02Chair03Completed)
             {
-                if (objectType == "Washer" && washerController != null)
+                if (objectType == "Chair01" && chair01Controller != null)
                 {
-                    washerCompleted = true;
-                    washerController.OnAllPartsPlaced();
+                    chair01Completed = true;
+                    chair01Controller.OnAllPartsPlaced();
                 }
 
-                if (objectType == "Carpet" && carpetController != null)
+                if (objectType == "Chair02" && chair02Controller != null)
                 {
-                    carpetCompleted = true;
-                    carpetController.OnAllPartsPlaced();
+                    chair02Completed = true;
+                    chair02Controller.OnAllPartsPlaced();
                 }
 
-                if (objectType == "Towel" && towelController != null)
+                if (objectType == "Chair03" && chair03Controller != null)
                 {
-                    towelCompleted = true;
-                    towelController.OnAllPartsPlaced();
+                    chair03Completed = true;
+                    chair03Controller.OnAllPartsPlaced();
                 }
 
-                CheckWasherCarpetTowelObjectsCompleted();
-            }*/
+                //CheckChair01Chair02Chair03Completed();
+            }
 
         }
 
@@ -207,24 +207,24 @@ public class GameManager_Lvl03 : MonoBehaviour
     {
         if (kitchenCompleted && cookerCompleted && fridgeCompleted)
         {
-            //ActivateWasherCarpetTowel();
+            ActivateChair01Chair02Chair03();
             IsKitchenCookerFridgeCompleted = true;
         }
     }
 
-    /*void ActivateWasherCarpetTowel()
+    void ActivateChair01Chair02Chair03()
     {
-        if (washerObject != null && carpetObject != null && towelObject != null)
+        if (chair01Object != null && chair02Object != null && chair03Object != null)
         {
-            washerObject.SetActive(true);
-            carpetObject.SetActive(true);
-            towelObject.SetActive(true);
-            partManager.InitializeWasherCarpetTowelParts();
+            chair01Object.SetActive(true);
+            chair02Object.SetActive(true);
+            chair03Object.SetActive(true);
+            partManager.InitializeChair01Chair02Chair03Parts();
 
             // Move camera to new position
             if (cameraController != null)
             {
-                cameraController.MoveCameraToWasher();
+                cameraController.MoveCameraToTable();
             }
             else
             {
@@ -236,25 +236,25 @@ public class GameManager_Lvl03 : MonoBehaviour
         {
             Debug.LogError("Washer object is not assigned in the GameManager!");
         }
-    }*/
+    }
 
     public bool AreAnyPartsBeingPlaced()
     {
         return (placedParts["Kitchen"].Count > 0 && placedParts["Kitchen"].Count < totalParts) ||
                (placedParts["Cooker"].Count > 0 && placedParts["Cooker"].Count < totalParts) ||
-               (placedParts["Fridge"].Count > 0 && placedParts["Fridge"].Count < totalParts);
+               (placedParts["Fridge"].Count > 0 && placedParts["Fridge"].Count < totalParts) ||
 
-               /*(placedParts["Washer"].Count > 0 && placedParts["Washer"].Count < totalParts) ||
-               (placedParts["Carpet"].Count > 0 && placedParts["Carpet"].Count < totalParts) ||
-               (placedParts["Towel"].Count > 0 && placedParts["Towel"].Count < totalParts);*/
+               (placedParts["Chair01"].Count > 0 && placedParts["Chair01"].Count < totalParts) ||
+               (placedParts["Chair02"].Count > 0 && placedParts["Chair02"].Count < totalParts) ||
+               (placedParts["Chair03"].Count > 0 && placedParts["Chair03"].Count < totalParts);
 
     }
 
 
-    /*
-    void CheckWasherCarpetTowelObjectsCompleted()
+    
+    /*void CheckTableDishesGlass01ObjectsCompleted()
     {
-        if (washerCompleted && carpetCompleted && towelCompleted)
+        if (tableCompleted && dishesCompleted && glass01Completed)
         {
             IsWasherCarpetTowelCompleted = true;
             if (cameraController != null)

@@ -18,8 +18,8 @@ public class CameraController_Lvl03 : MonoBehaviour, ICameraController
     private Camera cam;
     private float warningTimer;
     private Vector3 cameraMovement;
-    public Vector3 defaultTransform;// = new Vector3(6.7f, 17.51f, -10f);
-    //public Vector3 washerCameraPosition = new Vector3(6.11f, 13.4f, -10f);
+    public Vector3 defaultTransform = new Vector3(6.7f, 17.51f, -10f);
+    public Vector3 tableCameraPosition = new Vector3(6.7f, 15.95f, -10f);
     public float cameraMoveSpeed = 2f;
     private bool isTransitioning = false;
 
@@ -152,12 +152,12 @@ public class CameraController_Lvl03 : MonoBehaviour, ICameraController
         }
     }
 
-    /*public void MoveCameraToWasher()
+    public void MoveCameraToTable()
     {
-        StartCoroutine(MoveCameraCoroutine(washerCameraPosition, false));
+        StartCoroutine(MoveCameraCoroutine(tableCameraPosition, false, 0f));
     }
 
-    private IEnumerator MoveCameraCoroutine(Vector3 position, bool needResize)
+    private IEnumerator MoveCameraCoroutine(Vector3 position, bool needResize, float targetSize)
     {
         isTransitioning = true;
         Vector3 startPosition = transform.position;
@@ -165,7 +165,7 @@ public class CameraController_Lvl03 : MonoBehaviour, ICameraController
         float startTime = Time.time;
 
         float startSize = cam.orthographicSize;
-        float targetSize = 10f;
+        //float targetSize = 10f;
 
         while (transform.position != position)
         {
@@ -184,7 +184,7 @@ public class CameraController_Lvl03 : MonoBehaviour, ICameraController
         isTransitioning = false;
         defaultTransform = position; // Update the default transform
     }
-
+    /*
     public void MoveCameraToFinal()
     {
         StartCoroutine(MoveCameraCoroutine(finalPosition, true));

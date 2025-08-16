@@ -7,19 +7,31 @@ public class PartManager_Lvl03 : MonoBehaviour
     public RectTransform uiPanel;
     public GameObject[] partPrefabs;
     public RectTransform[] targetAreas;
+    
     public GameObject[] chair01Chair02Chair03PartPrefabs;
     public RectTransform[] chair01Chair02Chair03TargetAreas;
-    /*public GameObject[] rugPosterPartPrefabs;
-    public RectTransform[] rugPosterTargetAreas;
-    public GameObject[] sofaTVPartPrefabs;
-    public RectTransform[] sofaTVTargetAreas;*/
+    
+    public GameObject[] chair04TableTableItemsPartPrefabs;
+    public RectTransform[] chair04TableTableItemsTargetAreas;
+    
+    public GameObject[] vaseMicrowavePanPartPrefabs;
+    public RectTransform[] vaseMicrowavePanTargetAreas;
+
+    public GameObject[] dishesGlass01Glass02PartPrefabs;
+    public RectTransform[] dishesGlass01Glass02TargetAreas;
+
+    public GameObject[] glass03Glass04Glass05PartPrefabs;
+    public RectTransform[] glass03Glass04Glass05TargetAreas;
+
     public Button leftButton;
     public Button rightButton;
 
     private List<GameObject> parts = new List<GameObject>();
     private List<GameObject> chair01Chair02Chair03Parts = new List<GameObject>();
-    //private List<GameObject> rugPosterParts = new List<GameObject>();
-    //private List<GameObject> sofaTVParts = new List<GameObject>();
+    private List<GameObject> chair04TableTableItemsParts = new List<GameObject>();
+    private List<GameObject> vaseMicrowavePanParts = new List<GameObject>();
+    private List<GameObject> dishesGlass01Glass02Parts = new List<GameObject>();
+    private List<GameObject> glass03Glass04Glass05Parts = new List<GameObject>();
 
     private int partsPerPage = 10;
     private int currentPage = 0;
@@ -148,22 +160,38 @@ public class PartManager_Lvl03 : MonoBehaviour
         currentActiveList = chair01Chair02Chair03Parts;
         UpdateVisibleParts();
     }
-    /*
-         public void InitializeRugParts()
-         {
-             currentPage = 0;
-             InitializeParts(rugPosterPartPrefabs, rugPosterTargetAreas, uiPanel, rugPosterParts);
-             currentActiveList = rugPosterParts;
-             UpdateVisibleParts();
-         }
+    
+    public void InitializeChair04TableTableItemsParts()
+    {
+        currentPage = 0;
+        InitializeParts(chair04TableTableItemsPartPrefabs, chair04TableTableItemsTargetAreas, uiPanel, chair04TableTableItemsParts);
+        currentActiveList = chair04TableTableItemsParts;
+        UpdateVisibleParts();
+    }
 
-         public void InitializeSofaParts()
-         {
-             currentPage = 0;
-             InitializeParts(sofaTVPartPrefabs, sofaTVTargetAreas, uiPanel, sofaTVParts);
-             currentActiveList = sofaTVParts;
-             UpdateVisibleParts();
-         }*/
+    public void InitializeVaseMicrowavePanParts()
+    {
+        currentPage = 0;
+        InitializeParts(vaseMicrowavePanPartPrefabs, vaseMicrowavePanTargetAreas, uiPanel, vaseMicrowavePanParts);
+        currentActiveList = vaseMicrowavePanParts;
+        UpdateVisibleParts();
+    }
+
+    public void InitializeDishesGlass01Glass02Parts()
+    {
+        currentPage = 0;
+        InitializeParts(dishesGlass01Glass02PartPrefabs, dishesGlass01Glass02TargetAreas, uiPanel, dishesGlass01Glass02Parts);
+        currentActiveList = dishesGlass01Glass02Parts;
+        UpdateVisibleParts();
+    }
+
+    public void InitializeGlass03Glass04Glass05Parts()
+    {
+        currentPage = 0;
+        InitializeParts(glass03Glass04Glass05PartPrefabs, glass03Glass04Glass05TargetAreas, uiPanel, glass03Glass04Glass05Parts);
+        currentActiveList = glass03Glass04Glass05Parts;
+        UpdateVisibleParts();
+    }
 
     Vector3 GetScaleForPart(string partName)
     {

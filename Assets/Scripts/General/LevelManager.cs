@@ -196,30 +196,14 @@ public class LevelManager : MonoBehaviour
                 cameraController02.defaultTransform = cameraController02.washerCameraPosition;
                 cameraController02.ResetZoom();
             }
-            /*
-            else if (saveData.IsDeskChairCompleted && !saveData.IsRugPosterCompleted)
-            {
-                rugObject.SetActive(true);
-                posterObject.SetActive(true);
-                partManager.InitializeRugParts();
-                cameraController.defaultTransform = cameraController.rugCameraPosition;
-                cameraController.ResetZoom();
-            }
-            else if (saveData.IsRugPosterCompleted && !saveData.IsSofaTVCompleted)
-            {
-                sofaObject.SetActive(true);
-                tvObject.SetActive(true);
-                partManager.InitializeSofaParts();
-                cameraController.defaultTransform = cameraController.sofaTVCameraPosition;
-                cameraController.ResetZoom();
-            }
-            else if (saveData.IsSofaTVCompleted)
+
+            else if (saveData.IsWasherCarpetTowelCompleted)
             {
                 cameraController.defaultTransform = cameraController.finalPosition;
                 cameraController.defaultZoom = 10f;
                 cameraController.ResetZoom();
                 gameManager.infoManager.ShowPanel();
-            } */
+            }
 
             // Update objects based on saved state
             UpdateObjectState(bathObject, bathController, saveData.bathCompleted);

@@ -16,14 +16,21 @@ public class CameraController_Lvl03 : MonoBehaviour, ICameraController
     public TextMeshProUGUI dragModeText; // New variable for the drag mode text
     public float warningDisplayTime = 2f;
     private Camera cam;
+    public Camera particleCam;
     private float warningTimer;
     private Vector3 cameraMovement;
     public Vector3 defaultTransform = new Vector3(6.7f, 17.51f, -10f);
     public Vector3 tableCameraPosition = new Vector3(6.7f, 15.95f, -10f);
+    public Vector3 vaseCameraPosition = new Vector3(6.7f, 16.8f, -10f);
+    public Vector3 dishesCameraPosition = new Vector3(7.4f, 18.9f, -10f);
+    public float vaseZoom = 3f;
+    public float dishesZoom = 2f;
+    public float finalZoom = 10f;
+
     public float cameraMoveSpeed = 2f;
     private bool isTransitioning = false;
 
-    //public Vector3 finalPosition = new Vector3(10.5f, 16.7f, -10.5f);
+    public Vector3 finalPosition = new Vector3(4.6f, 16f, -10.4f);
 
     public interface ICameraController
     {
@@ -176,6 +183,10 @@ public class CameraController_Lvl03 : MonoBehaviour, ICameraController
             if (needResize)
             {
                 cam.orthographicSize = Mathf.Lerp(startSize, targetSize, fractionOfJourney);
+                particleCam.orthographicSize = Mathf.Lerp(startSize, targetSize, fractionOfJourney);
+                defaultZoom = targetSize;
+
+
             }
 
             yield return null;
@@ -184,10 +195,20 @@ public class CameraController_Lvl03 : MonoBehaviour, ICameraController
         isTransitioning = false;
         defaultTransform = position; // Update the default transform
     }
-    /*
+
+    public void MoveCameraToVase()
+    {
+        StartCoroutine(MoveCameraCoroutine(vaseCameraPosition, true, vaseZoom));
+    }
+
+    public void MoveCameraToDishes()
+    {
+        StartCoroutine(MoveCameraCoroutine(dishesCameraPosition, true, dishesZoom));
+    }
+    
     public void MoveCameraToFinal()
     {
-        StartCoroutine(MoveCameraCoroutine(finalPosition, true));
-    }*/
+        StartCoroutine(MoveCameraCoroutine(finalPosition, true, finalZoom));
+    }
 
 }

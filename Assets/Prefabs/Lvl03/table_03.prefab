@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialPosition: {x: 0, y: 0, z: 0}
   _targetArea: {fileID: 0}
-  placementThreshold: 50
+  placementThreshold: 20
   dragScale: {x: 2.28, y: 11.31, z: 1}
   objectType: Table
   isPlaced: 0

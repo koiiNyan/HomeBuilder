@@ -166,7 +166,7 @@ MonoBehaviour:
   initialPosition: {x: 0, y: 0, z: 0}
   _targetArea: {fileID: 0}
   placementThreshold: 20
-  dragScale: {x: 0.46, y: 5.12, z: 1}
+  dragScale: {x: 0.32, y: 1, z: 1}
   objectType: Glass04
   isPlaced: 0
 --- !u!225 &-2609723333930616348

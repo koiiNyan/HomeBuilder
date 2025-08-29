@@ -10,6 +10,7 @@ public class GameManager_Lvl02 : MonoBehaviour
     private Dictionary<string, List<DraggablePart>> placedParts = new Dictionary<string, List<DraggablePart>>();
 
     public InfoManager infoManager;
+    public ParticleManager particleManager;
 
     public int totalParts = 10;
 
@@ -261,6 +262,7 @@ public class GameManager_Lvl02 : MonoBehaviour
             {
                 cameraController.MoveCameraToFinal();
                 infoManager.ShowPanel();
+                particleManager.PlayFinalParticle();
             }
             else
             {

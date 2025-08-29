@@ -62,6 +62,12 @@ namespace General
 
         public void ShowPanel()
         {
+            for (int i = 0; i < uiElements.Count; i++)
+            {
+                uiElements[i].SetActive(false);
+            }
+
+
             nextLvlPanel.SetActive(true);
         }
     }

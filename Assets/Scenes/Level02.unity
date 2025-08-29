@@ -592,7 +592,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 51bf1348bdc57254d926f116634b754b, type: 2}
   - {fileID: 2100000, guid: df1617325e4da9a40b123d6a261a35a8, type: 2}
   - {fileID: 2100000, guid: 4d574ad9835d65c4c875dc7d48975cd1, type: 2}
-  particlePosition: {x: 1.34, y: 1.54, z: 1.3}
+  particlePosition: {x: 1.1, y: 1.51, z: 1.3}
   particleScale: {x: 0.1, y: 0.1, z: 0.1}
   partManager: {fileID: 1756178623}
 --- !u!1 &71870009
@@ -694,7 +694,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: fd5c61492a05ec143bd2480588b974c2, type: 2}
   - {fileID: 2100000, guid: 51bf1348bdc57254d926f116634b754b, type: 2}
   particlePosition: {x: 0.15, y: 1.12, z: 0.59}
-  particleScale: {x: 0.1, y: 0.1, z: 0.1}
+  particleScale: {x: 0.15, y: 0.15, z: 0.15}
   partManager: {fileID: 1756178623}
 --- !u!1 &85848336
 GameObject:
@@ -1006,8 +1006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMaterials:
   - {fileID: 2100000, guid: fd5c61492a05ec143bd2480588b974c2, type: 2}
-  particlePosition: {x: 0.57, y: 0.95, z: 0.62}
-  particleScale: {x: 0.09, y: 0.09, z: 0.09}
+  particlePosition: {x: 0.31, y: 0.95, z: 0.62}
+  particleScale: {x: 0.1, y: 0.1, z: 0.1}
   partManager: {fileID: 1756178623}
 --- !u!1 &188547908
 GameObject:
@@ -1963,7 +1963,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 7862d42029d8a9c4387ffbbb09dca4c0, type: 2}
   - {fileID: 2100000, guid: df1617325e4da9a40b123d6a261a35a8, type: 2}
   - {fileID: 2100000, guid: 96da3eb8ac44670489583c2be91e4a88, type: 2}
-  particlePosition: {x: -0.22, y: 0.93, z: 0.26}
+  particlePosition: {x: -0.55, y: 1.47, z: 0.26}
   particleScale: {x: 0.09, y: 0.09, z: 0.09}
   partManager: {fileID: 1756178623}
 --- !u!1 &342115497
@@ -2458,7 +2458,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2490,7 +2490,8 @@ Transform:
   m_LocalPosition: {x: 0, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1368583548}
   m_Father: {fileID: 1691560969}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495002887
@@ -2669,6 +2670,7 @@ RectTransform:
   - {fileID: 1679108114}
   - {fileID: 342115500}
   - {fileID: 1052220146}
+  - {fileID: 615404302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2919,6 +2921,78 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606305766}
+  m_CullTransparentMesh: 1
+--- !u!1 &615404301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615404302}
+  - component: {fileID: 615404304}
+  - component: {fileID: 615404303}
+  m_Layer: 5
+  m_Name: ParticlesOverlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &615404302
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615404301}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 509557340}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &615404303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615404301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: 689fe9b6c42085b44abbdc3c5288f5a5, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &615404304
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615404301}
   m_CullTransparentMesh: 1
 --- !u!1 &617835642
 GameObject:
@@ -4547,7 +4621,7 @@ MonoBehaviour:
   newMaterials:
   - {fileID: 2100000, guid: 7862d42029d8a9c4387ffbbb09dca4c0, type: 2}
   - {fileID: 2100000, guid: da276184539af9e4c8d657765ed4e3ae, type: 2}
-  particlePosition: {x: 0.12, y: 0.06, z: -0.196}
+  particlePosition: {x: 0.42, y: 0.51, z: -0.11}
   particleScale: {x: 0.05, y: 0.05, z: 0.05}
   partManager: {fileID: 1756178623}
 --- !u!1 &1031222562
@@ -5607,6 +5681,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367501025}
   m_CullTransparentMesh: 1
+--- !u!1 &1368583546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1368583548}
+  - component: {fileID: 1368583547}
+  m_Layer: 0
+  m_Name: ParticleCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &1368583547
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368583546}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 64
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: 689fe9b6c42085b44abbdc3c5288f5a5, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1368583548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368583546}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.42426378, y: 0.39559102, z: -0.7949269}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 480879140}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1388339668
 GameObject:
   m_ObjectHideFlags: 0
@@ -6550,6 +6707,7 @@ MonoBehaviour:
   warningText: {fileID: 1807060510}
   dragModeText: {fileID: 1031222564}
   warningDisplayTime: 2
+  particleCam: {fileID: 1368583547}
   defaultTransform: {x: 6.1, y: 16.73, z: -10}
   washerCameraPosition: {x: 6.11, y: 13.4, z: -10}
   cameraMoveSpeed: 2
@@ -6846,7 +7004,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particlePrefab: {fileID: 7938384439400024403, guid: b6e54acc881a03c4a9719b161a25a3e3, type: 3}
-  particleDuration: 2
+  particleObjDuration: 2
+  particlePrefabFinal: {fileID: 3084408459868168066, guid: 81314d5b6e9c7ba4f933e8efc2e41a0f, type: 3}
+  particleFinDuration: 2
 --- !u!114 &1756178623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7000,6 +7160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infoManager: {fileID: 2050972118}
+  particleManager: {fileID: 1756178622}
   totalParts: 10
   bathController: {fileID: 80157345}
   sinkController: {fileID: 325667373}
@@ -9003,7 +9164,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 576d2a3e1a4349343a142f062d1735bf, type: 2}
   - {fileID: 2100000, guid: cc25e1c208442e840a70013ec01acfcc, type: 2}
   - {fileID: 2100000, guid: 113ccad5faffde6428539fcc86318156, type: 2}
-  particlePosition: {x: 0.03, y: 0.84, z: 0.23}
+  particlePosition: {x: -0.71, y: 0.84, z: 0.23}
   particleScale: {x: 0.07, y: 0.07, z: 0.07}
   partManager: {fileID: 1756178623}
 --- !u!1660057539 &9223372036854775807

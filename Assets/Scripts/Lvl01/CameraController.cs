@@ -15,6 +15,8 @@ public class CameraController : MonoBehaviour, ICameraController
     public TextMeshProUGUI dragModeText; // New variable for the drag mode text
     public float warningDisplayTime = 2f;
     private Camera cam;
+    public Camera particleCam;
+
     private float warningTimer;
     private Vector3 cameraMovement;
     public Vector3 defaultTransform = new Vector3(10f, 18f, -10f);
@@ -179,6 +181,7 @@ public class CameraController : MonoBehaviour, ICameraController
             if (needResize)
             {
                 cam.orthographicSize = Mathf.Lerp(startSize, targetSize, fractionOfJourney);
+                particleCam.orthographicSize = Mathf.Lerp(startSize, targetSize, fractionOfJourney);
             }
 
             yield return null;

@@ -175,7 +175,11 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
         if (IsCorrectPlacement())
         {
-           // AudioManager.Instance.PlaySoundEffect(0); TODO
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlaySoundEffect(0);
+            }
+            //AudioManager.Instance.PlaySoundEffect(0); //TODO
             SnapToTarget();
             isPlaced = true;
             string currentScene = SceneManager.GetActiveScene().name;

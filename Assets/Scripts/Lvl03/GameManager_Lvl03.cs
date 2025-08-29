@@ -10,6 +10,7 @@ public class GameManager_Lvl03 : MonoBehaviour
     private Dictionary<string, List<DraggablePart>> placedParts = new Dictionary<string, List<DraggablePart>>();
 
     public InfoManager infoManager;
+    public ParticleManager particleManager;
 
     public int totalParts = 10;
     //first
@@ -336,8 +337,8 @@ public class GameManager_Lvl03 : MonoBehaviour
             {
                 if (objectType == "Dishes" && dishesController != null)
                 {
-                    vaseCompleted = true;
-                    vaseController.OnAllPartsPlaced();
+                    dishesCompleted = true;
+                    dishesController.OnAllPartsPlaced();
                 }
 
                 if (objectType == "Glass01" && glass01Controller != null)
@@ -579,6 +580,7 @@ public class GameManager_Lvl03 : MonoBehaviour
             {
                 cameraController.MoveCameraToFinal();
                 infoManager.ShowPanel();
+                particleManager.PlayFinalParticle();
             }
             else
             {

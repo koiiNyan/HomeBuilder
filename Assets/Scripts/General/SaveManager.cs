@@ -80,6 +80,10 @@ public static class SaveManager
                 return;
             }
 
+            /// lvl01 all true
+
+
+
             saveData.bathCompleted = gameManager.GetBathCompleted();
             saveData.sinkCompleted = gameManager.GetSinkCompleted();
             saveData.toiletCompleted = gameManager.GetToiletCompleted();      
@@ -91,7 +95,34 @@ public static class SaveManager
             saveData.IsWasherCarpetTowelCompleted = gameManager.GetIsWasherCarpetTowelCompleted();
 
         }
-        // Add more conditions for other levels
+
+
+        else if (levelName == "Level03")
+        {
+            GameManager_Lvl02 gameManager = Object.FindObjectOfType<GameManager_Lvl02>();
+            if (gameManager == null)
+            {
+                Debug.LogError("SaveManager: GameManager not found!");
+                return;
+            }
+
+            /// lvl01 all true
+
+            /// lvl02 all true
+
+            saveData.bathCompleted = gameManager.GetBathCompleted();
+            saveData.sinkCompleted = gameManager.GetSinkCompleted();
+            saveData.toiletCompleted = gameManager.GetToiletCompleted();
+            saveData.IsBathSinkToiletCompleted = gameManager.GetIsBathSinkToiletCompleted();
+
+            saveData.washerCompleted = gameManager.GetWasherCompleted();
+            saveData.carpetCompleted = gameManager.GetCarpetCompleted();
+            saveData.towelCompleted = gameManager.GetTowelCompleted();
+            saveData.IsWasherCarpetTowelCompleted = gameManager.GetIsWasherCarpetTowelCompleted();
+
+        }
+
+
 
         string json = JsonUtility.ToJson(saveData, true);
         string path = Path.Combine(Application.persistentDataPath, SAVE_FILE_NAME);

@@ -12,6 +12,8 @@ public class KitchenController : MonoBehaviour, ILoadable
 
     public PartManager_Lvl03 partManager;
 
+    [SerializeField] private Transform panel;
+
     void Start()
     {
         particleManager = FindObjectOfType<ParticleManager>();
@@ -33,13 +35,21 @@ public class KitchenController : MonoBehaviour, ILoadable
 
     void DestroyUIParts()
     {
-        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("KitchenUI");
+        /*GameObject[] uiParts = GameObject.FindGameObjectsWithTag("KitchenUI");
         foreach (GameObject part in uiParts)
         {
             partManager.UpdatePartList(part);
             Destroy(part);
+        }*/
+        foreach (Transform child in panel.GetComponentsInChildren<Transform>(true))
+        {
+            if (child.CompareTag("KitchenUI"))
+            {
+                partManager.UpdatePartList(child.gameObject);
+                Destroy(child.gameObject);
+            }
         }
-        
+
     }
 
     void PlayParticleEffect()

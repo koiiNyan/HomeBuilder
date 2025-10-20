@@ -222,6 +222,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: -0.24, z: 0}
   particleScale: {x: 0.08, y: 0.08, z: 0.08}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &25656142
 GameObject:
   m_ObjectHideFlags: 0
@@ -2133,6 +2134,7 @@ MonoBehaviour:
   particlePosition: {x: 0.94, y: 0.86, z: 0.66}
   particleScale: {x: 0.08, y: 0.08, z: 0.08}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &232542521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,6 +2416,7 @@ MonoBehaviour:
   particlePosition: {x: -0.06, y: 0.12, z: 0}
   particleScale: {x: 0.04, y: 0.04, z: 0.04}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &259917630
 GameObject:
   m_ObjectHideFlags: 0
@@ -5807,6 +5810,7 @@ MonoBehaviour:
   particlePosition: {x: 0.07, y: 0, z: 0}
   particleScale: {x: 0.05, y: 0.05, z: 0.05}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &625974585
 GameObject:
   m_ObjectHideFlags: 0
@@ -9497,6 +9501,7 @@ MonoBehaviour:
   particlePosition: {x: 0.71, y: 0.94, z: 0.8}
   particleScale: {x: 0.07, y: 0.07, z: 0.07}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &1118781803
 GameObject:
   m_ObjectHideFlags: 0
@@ -10730,6 +10735,7 @@ MonoBehaviour:
   particlePosition: {x: 0.72, y: 0.4, z: 0.58}
   particleScale: {x: 0.1, y: 0.1, z: 0.1}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &1311431456
 GameObject:
   m_ObjectHideFlags: 0
@@ -10999,6 +11005,7 @@ MonoBehaviour:
   particlePosition: {x: -0.03, y: 0.6, z: 0.15}
   particleScale: {x: 0.08, y: 0.08, z: 0.08}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &1348522765
 GameObject:
   m_ObjectHideFlags: 0
@@ -11396,6 +11403,7 @@ MonoBehaviour:
   particlePosition: {x: 0.3, y: 0.33, z: -0.23}
   particleScale: {x: 0.05, y: 0.05, z: 0.05}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &1374909260
 GameObject:
   m_ObjectHideFlags: 0
@@ -12344,6 +12352,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: 0, z: 0}
   particleScale: {x: 0.05, y: 0.05, z: 0.05}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &1473513526
 GameObject:
   m_ObjectHideFlags: 0
@@ -14228,6 +14237,7 @@ MonoBehaviour:
   particlePosition: {x: 0.3, y: 0.33, z: -0.23}
   particleScale: {x: 0.05, y: 0.05, z: 0.05}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &1691560967
 GameObject:
   m_ObjectHideFlags: 0
@@ -15053,6 +15063,7 @@ MonoBehaviour:
   particlePosition: {x: 0.39, y: 0.61, z: -0.39}
   particleScale: {x: 0.05, y: 0.05, z: 0.05}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1001 &1755546112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16327,6 +16338,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: 0, z: 0}
   particleScale: {x: 0.03, y: 0.03, z: 0.03}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &1816718704
 GameObject:
   m_ObjectHideFlags: 0
@@ -18350,6 +18362,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: 0, z: 0}
   particleScale: {x: 0.03, y: 0.03, z: 0.03}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1 &2050972116
 GameObject:
   m_ObjectHideFlags: 0
@@ -18445,6 +18458,44 @@ MonoBehaviour:
   washerController: {fileID: 0}
   carpetController: {fileID: 0}
   towelController: {fileID: 0}
+  cameraController03: {fileID: 1691560970}
+  partManager03: {fileID: 1756178623}
+  kitchenObject: {fileID: 1309519116}
+  cookerObject: {fileID: 1063902882}
+  fridgeObject: {fileID: 229639602}
+  kitchenController: {fileID: 1309519117}
+  cookerController: {fileID: 1063902883}
+  fridgeController: {fileID: 229639603}
+  chair01Object: {fileID: 1373957998}
+  chair02Object: {fileID: 1683033420}
+  chair03Object: {fileID: 1736310675}
+  chair01Controller: {fileID: 1373958002}
+  chair02Controller: {fileID: 1683033424}
+  chair03Controller: {fileID: 1736310679}
+  chair04Object: {fileID: 1463987935}
+  tableObject: {fileID: 1337092239}
+  tableItemsObject: {fileID: 19216391}
+  chair04Controller: {fileID: 1463987939}
+  tableController: {fileID: 1337092243}
+  tableItemsController: {fileID: 19216395}
+  vaseObject: {fileID: 619855172}
+  microwaveObject: {fileID: 244324512}
+  panObject: {fileID: 1807481409}
+  vaseController: {fileID: 619855176}
+  microwaveController: {fileID: 244324516}
+  panController: {fileID: 1807481413}
+  dishesObject: {fileID: 2046241550}
+  glass01Object: {fileID: 3303709039452904339}
+  glass02Object: {fileID: 3814727699696856436}
+  dishesController: {fileID: 2046241551}
+  glass01Controller: {fileID: 3303709039452904340}
+  glass02Controller: {fileID: 3814727699696856437}
+  glass03Object: {fileID: 8220540438112635267}
+  glass04Object: {fileID: 673008783076400444}
+  glass05Object: {fileID: 4989608629288532498}
+  glass03Controller: {fileID: 8220540438112635268}
+  glass04Controller: {fileID: 673008783076400445}
+  glass05Controller: {fileID: 4989608629288532499}
 --- !u!1 &2078305254
 GameObject:
   m_ObjectHideFlags: 0
@@ -19160,6 +19211,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: 0, z: 0}
   particleScale: {x: 0.03, y: 0.03, z: 0.03}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1001 &3167876345063130770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19350,6 +19402,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: 0, z: 0}
   particleScale: {x: 0.03, y: 0.03, z: 0.03}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1001 &3814727699696856435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19456,6 +19509,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: 0, z: 0}
   particleScale: {x: 0.03, y: 0.03, z: 0.03}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1001 &4284117380150122333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19730,6 +19784,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: 0, z: 0}
   particleScale: {x: 0.03, y: 0.03, z: 0.03}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1001 &8220540438112635266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19836,6 +19891,7 @@ MonoBehaviour:
   particlePosition: {x: 0, y: 0, z: 0}
   particleScale: {x: 0.03, y: 0.03, z: 0.03}
   partManager: {fileID: 1756178623}
+  panel: {fileID: 509557340}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

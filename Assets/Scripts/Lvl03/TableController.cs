@@ -12,6 +12,8 @@ public class TableController : MonoBehaviour, ILoadable
 
     public PartManager_Lvl03 partManager;
 
+    [SerializeField] private Transform panel;
+
     void Start()
     {
         particleManager = FindObjectOfType<ParticleManager>();
@@ -33,13 +35,14 @@ public class TableController : MonoBehaviour, ILoadable
 
     void DestroyUIParts()
     {
-        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("TableUI");
-        foreach (GameObject part in uiParts)
+        foreach (Transform child in panel.GetComponentsInChildren<Transform>(true))
         {
-            partManager.UpdatePartList(part);
-            Destroy(part);
+            if (child.CompareTag("TableUI"))
+            {
+                partManager.UpdatePartList(child.gameObject);
+                Destroy(child.gameObject);
+            }
         }
-        
     }
 
     void PlayParticleEffect()

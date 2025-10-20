@@ -12,6 +12,8 @@ public class ToiletController : MonoBehaviour, ILoadable
 
     public PartManager_Lvl02 partManager;
 
+    [SerializeField] private Transform panel;
+
     void Start()
     {
         particleManager = FindObjectOfType<ParticleManager>();
@@ -33,11 +35,20 @@ public class ToiletController : MonoBehaviour, ILoadable
 
     void DestroyUIParts()
     {
-        GameObject[] uiParts = GameObject.FindGameObjectsWithTag("ToiletUI");
+        /*GameObject[] uiParts = GameObject.FindGameObjectsWithTag("ToiletUI");
         foreach (GameObject part in uiParts)
         {
             partManager.UpdatePartList(part);
             Destroy(part);
+        }*/
+
+        foreach (Transform child in panel.GetComponentsInChildren<Transform>(true))
+        {
+            if (child.CompareTag("ToiletUI"))
+            {
+                partManager.UpdatePartList(child.gameObject);
+                Destroy(child.gameObject);
+            }
         }
 
     }

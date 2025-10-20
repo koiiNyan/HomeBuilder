@@ -24,7 +24,7 @@ public class CameraController_Lvl02 : MonoBehaviour, ICameraController
     public float cameraMoveSpeed = 2f;
     private bool isTransitioning = false;
 
-    public Vector3 finalPosition = new Vector3(10.5f,16.7f,-10.5f);
+    public Vector3 finalPosition = new Vector3(5.7f, 16.7f,-10.5f);
 
     public interface ICameraController
     {

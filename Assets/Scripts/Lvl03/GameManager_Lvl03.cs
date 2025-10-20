@@ -164,7 +164,7 @@ public class GameManager_Lvl03 : MonoBehaviour
     public void SetIsKitchenCookerFridgeCompleted(bool value) => IsKitchenCookerFridgeCompleted = value;
     public void SetIsChair01Chair02Chair03Completed(bool value) => IsChair01Chair02Chair03Completed = value;
     public void SetIsChair04TableTableItemsCompleted(bool value) => IsChair04TableTableItemsCompleted = value;
-    public void SetVaseMicrowavePanCompleted(bool value) => IsVaseMicrowavePanCompleted = value;
+    public void SetIsVaseMicrowavePanCompleted(bool value) => IsVaseMicrowavePanCompleted = value;
     public bool SetIsDishesGlass01Glass02Completed(bool value) => IsDishesGlass01Glass02Completed = value;
     public bool SetIsGlass03Glass04Glass05Completed(bool value) => IsGlass03Glass04Glass05Completed = value;
 
@@ -205,6 +205,12 @@ public class GameManager_Lvl03 : MonoBehaviour
 
         FindCameraController();
     }
+
+    /*void Update()
+    {
+        //////////////
+        Debug.LogError($"glass02Completed = {glass02Completed}");
+    }*/
 
     void FindCameraController()
     {

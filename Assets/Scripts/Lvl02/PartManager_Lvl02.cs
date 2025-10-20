@@ -165,6 +165,7 @@ public class PartManager_Lvl02 : MonoBehaviour
     public void UpdatePartList(GameObject prt)
     {
         currentActiveList.RemoveAll(s => s == prt || s.Equals(prt));
+        UpdateVisibleParts();
 
     }
 }

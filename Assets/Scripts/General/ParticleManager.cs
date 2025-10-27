@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ParticleManager : MonoBehaviour
 {
@@ -35,9 +36,14 @@ public class ParticleManager : MonoBehaviour
     public void PlayFinalParticle()
     {
         GameObject particleInstance = Instantiate(particlePrefabFinal);
-        //particleInstance.transform.localPosition = new Vector3(0f, 10.72f, 0f);
-        //particleInstance.transform.localScale = new Vector3(1f, 1f, 1f);
-        //particleInstance.transform.localRotation = Quaternion.Euler(0f, -45f, 0f);
+
+        /*string lvlName = SceneManager.GetActiveScene().name;
+        if (lvlName == "Level01") particleInstance.transform.position = new Vector3(-1.4f, 6f, -2.07f);
+
+        Vector3 position = new Vector3(0f, 0f, 0f);
+
+        if (lvlName == "Level01") position = new Vector3(-1.4f, 19f, -2.07f);
+        StartCoroutine(MoveParticle(particleInstance, position));*/
 
         ParticleSystem particleSystem = particleInstance.GetComponent<ParticleSystem>();
         if (particleSystem != null)
@@ -45,4 +51,23 @@ public class ParticleManager : MonoBehaviour
             StartCoroutine(StopAndDestroyParticle(particleSystem, particleInstance, particleFinDuration));
         }
     }
+
+/*
+    private IEnumerator MoveParticle(GameObject particleInstance, Vector3 position)
+    {
+        Vector3 startPosition = particleInstance.transform.position;
+        float journeyLength = Vector3.Distance(startPosition, position);
+        float startTime = Time.time;
+
+        while (particleInstance.transform.position != position)
+        {
+            float distanceCovered = (Time.time - startTime) * 3f;
+            float fractionOfJourney = distanceCovered / journeyLength;
+            particleInstance.transform.position = Vector3.Lerp(startPosition, position, fractionOfJourney);
+
+
+            yield return null;
+        }
+
+    } */
 }

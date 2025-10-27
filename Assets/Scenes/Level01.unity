@@ -770,6 +770,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2050972118}
         m_TargetAssemblyTypeName: General.InfoManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 2050972118}
+        m_TargetAssemblyTypeName: General.InfoManager, Assembly-CSharp
         m_MethodName: OpenInstructions
         m_Mode: 1
         m_Arguments:
@@ -845,14 +857,14 @@ RectTransform:
   m_GameObject: {fileID: 274532732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.36, y: 1.97, z: 1}
+  m_LocalScale: {x: 1.13, y: 1.97, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1713533468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 593.4, y: 428.8}
+  m_AnchoredPosition: {x: 589.4, y: 427.4}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &274532734
@@ -1215,6 +1227,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2050972118}
+        m_TargetAssemblyTypeName: General.InfoManager, Assembly-CSharp
+        m_MethodName: PlayButtonClose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 2050972118}
         m_TargetAssemblyTypeName: LevelShowInstruction, Assembly-CSharp
         m_MethodName: CloseInstructions
         m_Mode: 1
@@ -1448,7 +1472,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 684.7, y: 766.92}
+  m_AnchoredPosition: {x: 691.5, y: 766.92}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478995505
@@ -1705,6 +1729,7 @@ RectTransform:
   - {fileID: 1679108114}
   - {fileID: 1052220146}
   - {fileID: 1212167217}
+  - {fileID: 1732514701}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1712,6 +1737,89 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &552812898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 552812900}
+  - component: {fileID: 552812899}
+  m_Layer: 0
+  m_Name: FinParticleCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &552812899
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552812898}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: 2
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 128
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: b1a76dc20ae5d944cb65cea051307fa3, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &552812900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552812898}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -4.65, z: -0.91}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &553493712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2373,7 +2481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 565.89, y: 749.2}
+  m_AnchoredPosition: {x: 565.89, y: 747.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &795173845
@@ -2598,7 +2706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 647.9, y: 831.5}
+  m_AnchoredPosition: {x: 644.3, y: 825.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &934696619
@@ -2666,14 +2774,14 @@ RectTransform:
   m_GameObject: {fileID: 954396183}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.8, y: 4.5, z: 1}
+  m_LocalScale: {x: 3.75, y: 3.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1713533468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1084.6, y: 597}
+  m_AnchoredPosition: {x: 1085, y: 590.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954396185
@@ -3331,6 +3439,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 2050972118}
+        m_TargetAssemblyTypeName: General.InfoManager, Assembly-CSharp
+        m_MethodName: PlayButtonClose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
       - m_Target: {fileID: 2050972118}
         m_TargetAssemblyTypeName: LevelShowInstruction, Assembly-CSharp
         m_MethodName: ExitGame
@@ -4088,14 +4208,14 @@ RectTransform:
   m_GameObject: {fileID: 1496236733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5, y: 1.4, z: 1}
+  m_LocalScale: {x: 3.25, y: 1.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1713533468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 500.2, y: 660.9}
+  m_AnchoredPosition: {x: 488, y: 656.54}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1496236735
@@ -4784,6 +4904,78 @@ RectTransform:
   m_AnchoredPosition: {x: -964.79144, y: -538.82806}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1732514700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1732514701}
+  - component: {fileID: 1732514703}
+  - component: {fileID: 1732514702}
+  m_Layer: 5
+  m_Name: FinParticlesOverlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1732514701
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732514700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 509557340}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1732514702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732514700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: b1a76dc20ae5d944cb65cea051307fa3, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1732514703
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732514700}
+  m_CullTransparentMesh: 1
 --- !u!1 &1756178616
 GameObject:
   m_ObjectHideFlags: 0
@@ -5123,6 +5315,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 2050972118}
+        m_TargetAssemblyTypeName: General.InfoManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
       - m_Target: {fileID: 2050972118}
         m_TargetAssemblyTypeName: LevelShowInstruction, Assembly-CSharp
         m_MethodName: Next
@@ -6303,6 +6507,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2050972118}
+        m_TargetAssemblyTypeName: General.InfoManager, Assembly-CSharp
+        m_MethodName: PlayButtonClose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2050972118}
         m_TargetAssemblyTypeName: LevelShowInstruction, Assembly-CSharp
         m_MethodName: Menu
         m_Mode: 1
@@ -6522,6 +6738,44 @@ MonoBehaviour:
   washerController: {fileID: 0}
   carpetController: {fileID: 0}
   towelController: {fileID: 0}
+  cameraController03: {fileID: 0}
+  partManager03: {fileID: 0}
+  kitchenObject: {fileID: 0}
+  cookerObject: {fileID: 0}
+  fridgeObject: {fileID: 0}
+  kitchenController: {fileID: 0}
+  cookerController: {fileID: 0}
+  fridgeController: {fileID: 0}
+  chair01Object: {fileID: 0}
+  chair02Object: {fileID: 0}
+  chair03Object: {fileID: 0}
+  chair01Controller: {fileID: 0}
+  chair02Controller: {fileID: 0}
+  chair03Controller: {fileID: 0}
+  chair04Object: {fileID: 0}
+  tableObject: {fileID: 0}
+  tableItemsObject: {fileID: 0}
+  chair04Controller: {fileID: 0}
+  tableController: {fileID: 0}
+  tableItemsController: {fileID: 0}
+  vaseObject: {fileID: 0}
+  microwaveObject: {fileID: 0}
+  panObject: {fileID: 0}
+  vaseController: {fileID: 0}
+  microwaveController: {fileID: 0}
+  panController: {fileID: 0}
+  dishesObject: {fileID: 0}
+  glass01Object: {fileID: 0}
+  glass02Object: {fileID: 0}
+  dishesController: {fileID: 0}
+  glass01Controller: {fileID: 0}
+  glass02Controller: {fileID: 0}
+  glass03Object: {fileID: 0}
+  glass04Object: {fileID: 0}
+  glass05Object: {fileID: 0}
+  glass03Controller: {fileID: 0}
+  glass04Controller: {fileID: 0}
+  glass05Controller: {fileID: 0}
 --- !u!1 &2100570696
 GameObject:
   m_ObjectHideFlags: 0
@@ -7100,6 +7354,7 @@ SceneRoots:
   - {fileID: 234117404}
   - {fileID: 25656146}
   - {fileID: 199767804}
+  - {fileID: 552812900}
   - {fileID: 1691560969}
   - {fileID: 509557340}
   - {fileID: 1537925851}

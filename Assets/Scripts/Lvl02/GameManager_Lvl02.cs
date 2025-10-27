@@ -258,6 +258,13 @@ public class GameManager_Lvl02 : MonoBehaviour
         if (washerCompleted && carpetCompleted && towelCompleted)
         {
             IsWasherCarpetTowelCompleted = true;
+
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlaySoundEffect(6);
+            }
+
+
             if (cameraController != null)
             {
                 cameraController.MoveCameraToFinal();

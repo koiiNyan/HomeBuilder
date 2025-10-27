@@ -163,10 +163,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0d7d5e579fb9a4eb0f0e70bfa2ff0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialPosition: {x: 0, y: 0, z: 0}
   _targetArea: {fileID: 0}
   placementThreshold: 50
-  dragScale: {x: 1.74, y: 15, z: 1}
+  dragScale: {x: 1.45, y: 15, z: 1}
   objectType: Chair
+  isPlaced: 0
 --- !u!225 &1213569880693086982
 CanvasGroup:
   m_ObjectHideFlags: 0

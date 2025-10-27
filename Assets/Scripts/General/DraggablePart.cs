@@ -179,7 +179,7 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             {
                 AudioManager.Instance.PlaySoundEffect(0);
             }
-            //AudioManager.Instance.PlaySoundEffect(0); //TODO
+            
             SnapToTarget();
             isPlaced = true;
             string currentScene = SceneManager.GetActiveScene().name;
@@ -204,6 +204,11 @@ public class DraggablePart : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         }
         else
         {
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlaySoundEffect(5);
+            }
+
             rectTransform.position = initialPosition;
             rectTransform.localScale = initialScale;
         }

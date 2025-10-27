@@ -70,5 +70,22 @@ namespace General
 
             nextLvlPanel.SetActive(true);
         }
+
+        ///sounds
+        public void PlayButtonSound()
+        {
+            AudioManager.Instance.PlaySoundEffect(1);
+        }
+
+        public void PlayButtonClose()
+        {
+            AudioManager.Instance.PlaySoundEffect(3);
+        }
+
+        public void PlayArrow()
+        {
+            AudioManager.Instance.PlaySoundEffect(4);
+        }
+
     }
 }

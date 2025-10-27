@@ -205,7 +205,8 @@ public class PartManager_Lvl03 : MonoBehaviour
 
         UpdateVisibleParts();
         UpdatePartsPosition();
-        
+        OnLeftButtonClick();
+
 
     }
 

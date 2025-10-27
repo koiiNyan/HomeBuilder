@@ -582,6 +582,12 @@ public class GameManager_Lvl03 : MonoBehaviour
         if (glass03Completed && glass04Completed && glass05Completed)
         {
             IsGlass03Glass04Glass05Completed = true;
+
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlaySoundEffect(6);
+            }
+
             if (cameraController != null)
             {
                 cameraController.MoveCameraToFinal();

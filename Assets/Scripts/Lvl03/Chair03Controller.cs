@@ -21,6 +21,10 @@ public class Chair03Controller : MonoBehaviour, ILoadable
 
     public void OnAllPartsPlaced()
     {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySoundEffect(2);
+        }
         ChangeMaterials();
         DestroyUIParts();
         PlayParticleEffect();

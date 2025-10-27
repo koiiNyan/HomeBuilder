@@ -362,10 +362,18 @@ public class GameManager : MonoBehaviour
         {
             //ActivateDeskChair();
             IsSofaTVCompleted = true;
+
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlaySoundEffect(6);
+            }
+
             // Move camera to new position
             if (cameraController != null)
             {
                 cameraController.MoveCameraToFinal();
+
+
                 infoManager.ShowPanel();
                 particleManager.PlayFinalParticle();
             }

@@ -5265,7 +5265,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5363,7 +5363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1457822019}
   sfxSource: {fileID: 1457822018}
-  backgroundMusic: {fileID: 8300000, guid: e2e6225acf8d4fe49adfd1b10a1d4ec3, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 8a3fc533fc9c7b943b91e6f5e3915107, type: 3}
   soundEffects:
   - {fileID: 8300000, guid: 7fca62828db39554fad84da9219c43c8, type: 3}
   - {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
@@ -5371,6 +5371,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2195b844df80ad0449630e757291d71e, type: 3}
   - {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
   - {fileID: 8300000, guid: 724131bc8a7f34041bb9f1701f0cb58d, type: 3}
+  - {fileID: 8300000, guid: 7114fd1a635953f4aa7ac422867d3c51, type: 3}
 --- !u!1 &1514040816
 GameObject:
   m_ObjectHideFlags: 0
